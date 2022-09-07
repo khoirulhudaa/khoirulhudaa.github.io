@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>po3css - Challange QWERS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<body>
+
+<div class="utama">
+  <h1>My best friends - 5 kawan terbaiku</h1>
+
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Nama kawanku</th>
+      <th>Alamat</th>
+      <th>Opsi</th>
+    </tr>
+    <tr>
+        <td class="data" id="1">1</td>
+        <td class="data" id="2">Naufal</td>
+        <td class="data" id="3">Jl. Pilang sari</td>
+        <td><span class="data" id="4">edit</span> | <span class="data" id="">hapus</span></td>
+    </tr>
+    <tr>
+        <td class="data" id="5">2</td>
+        <td class="data" id="6">Arief</td>
+        <td class="data" id="7">Jl. Cideng raya</td>
+        <td><span class="data" id="8">edit</span> | <span class="data" id="">hapus</span></td>
+    </tr>
+    <tr>
+        <td class="data" id="9">3</td>
+        <td class="data" id="10">Daniel</td>
+        <td class="data" id="11">Jl. Cipto</td>
+        <td><span class="data" id="12">edit</span> | <span class="data" id="13">hapus</span></td>
+    </tr>
+    <tr>
+        <td class="data" id="14">4</td>
+        <td class="data" id="15">Muzani</td>
+        <td class="data" id="16">Jl. Kembang merah</td>
+        <td><span class="data" id="17">edit</span> | <span class="data" id="18">hapus</span></td>
+    </tr>
+    <tr>
+        <td class="data" id="19">5</td>
+        <td class="data" id="20">Kevin</td>
+        <td class="data" id="21">Jl. Kenangan no.55</td>
+        <td><span class="data" id="22">edit</span> | <span class="data" id="23">hapus</span></td>
+    </tr>
+  </table>
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.data').click(function(){
+			var teks = "Saat ini kamu memilih" + $(this).text();
+			alert(teks);
+		});		
+	});
+</script>
+</body>
+</html>
