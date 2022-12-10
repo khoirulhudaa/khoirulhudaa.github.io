@@ -4,45 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>p03form-lv1</title>
-    <link rel="stylesheet" href="./style_huda.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
 
-<div>
-    <img src="./loogo.jpg" alt="logo" width="80">
-    <h2>STMIK IKMI CIREBON</h2>
-</div>
+    <nav>
+        <div class="nav-left">
+            <img src="./logo.png" alt="logo">
+            <h1>STMIK IKMI CIREBON</h1>
+        </div>
+        <div class="nav-right">
+            <p class="alamat-title">Alamat Kampus :</p>
+            <p class="alamat-isi">
+                Jl. Perjuangan NO.10 Majasem Kec. Kesambi KOta Cirebon 
+                <br />
+                KTlp. (0231)490480-490481
+                <br />
+                Website : htts://ikmi.ac.
+            </p>
+        </div>
+    </nav>
 
-<hr width="300" align="left">
-<br>
+    <section class="nav-child">
+        <p>SK MENRISTEKDIKTI NO.1/KPT/1/2015</p>
+        <p>TERAKREDITASI-BAN-PT</p>
+    </section>
 
-<form action="/action_page.php">
-  <label for="nama">anda</label><br>
-  <br>
-  <input type="text" id="nama" name="nama" value="muhammad khoirulhuda">
-  <br>
-  <br>
-  <label for="email">Alamat email</label><br>
-  <br>
-  <input type="email" id="email" name="email" value="webdesainnn@gmail.com"><br><br>
-  <br>
-  <label>Jenis kelamin</label>
-  <br>
-  <br>
-  <input type="radio" name="jk" value="pria">Pria<br>
-  <br>
-  <input type="radio" name="jk" value="wanita">Wanita<br>
-  <br>
-  <br>
-  <label for="ttd">Tanda tangan</label>
-  <br>
-  <br>
-  <textarea type="textarea" rows="6" name="ttd" id="ttd"></textarea><br>
-  <br>
-  
-  <input type="submit" value="Kirim">
-</form> 
+    <div class="section1">
+        <h2>Formulir pendaftaran Mahasiswa IKMI</h2>
+        <h3>DATA PRIBADI</h3>
+    </div>
+
+    <section class="section2">
+        <form>
+            <div class="child-form">
+                <label>
+                    Nama :
+                </label>
+                <input type="text">
+            </div>
+            <div class="child-form">
+                <label>
+                    Tanggal lahir :
+                </label>
+                <input type="date">
+            </div>
+            <div class="child-form">
+                <label>
+                    Umur :
+                </label>
+                <input type="number">
+            </div>
+            <div class="child-form">
+                <label>
+                    Jenis kelamin :
+                </label>
+                <input type="radio" name="L" value="L">L
+                <input type="radio" name="L" value="P">P
+            </div>
+            <div class="child-form">
+                <label>
+                    Alamat sekarang :
+                </label>
+                <textarea type="text"></textarea>
+                
+            </div>
+            <div class="child-form">
+                <label>
+                    Nomer wa :
+                </label>
+                <input type="number" name="" id="">
+            </div>
+            <div class="child-form">
+                <label>
+                    Email :
+                </label>
+                <input type="email">
+            </div>
+            <button class="btn">Kirim data</button>
+        </form>
+    </section>
     
 </body>
 </html>
