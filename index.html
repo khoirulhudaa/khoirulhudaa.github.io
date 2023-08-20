@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Khoirulhuda">
+    <meta name="creator" content="Muhammad Khoirulhuda">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/nav.css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <title>WonderfulID - IKMIMATCH</title>
+</head>
+<body>
+
+    <!-- Komponen navbar -->
+    <nav class="nav-wonderful">
+        <div class="left-nav-wonderful">
+            <a href="./index.html">
+                <h2>WONDERFUL.ID🍃</h2>
+            </a>
+        </div>
+
+        <!-- Toggle -->
+        <div class="btn-toggle-wonderful" id="openBtn">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+        </div>
+        <!-- Toggle -->
+
+        <div class="sidebare">
+            <i class="fas fa-times" id="closeBtn"></i>
+            <ul>
+                <a class="liSidebare" href="#artikel" id="artikelSidebare">
+                    <li>Artikel</li>
+                </a> 
+                <a class="liSidebare" href="#destinasi" id="destinasiSidebare">
+                    <li>Destinasi</li>
+                </a> 
+                <a class="liSidebare" href="#citarasa" id="citarasaSidebare">
+                    <li>Cita Rasa</li>
+                </a> 
+                <a class="liSidebare" href="#rempahrempah" id="rempahSidebare">
+                    <li>Rempah-rempah</li>
+                </a> 
+                <a class="liSidebare" href="./signin.html">
+                    <li class="list-signin">Masuk</li>
+                 </a>
+                 <a class="liSidebare" href="./signup.html">
+                     <li class="list-signup">Daftar</li>
+                 </a>
+             </ul>
+        </div>
+        
+        <div class="right-nav-wonderful">
+            <ul>
+               <a href="#artikel">
+                   <li>Artikel</li>
+               </a> 
+               <a href="#destinasi">
+                   <li>Destinasi</li>
+               </a> 
+               <a href="#citarasa">
+                   <li>Cita Rasa</li>
+               </a> 
+               <a href="#rempahrempah">
+                   <li>Rempah-rempah</li>
+               </a> 
+               <a href="./signin.html">
+                   <li class="list-signin">Masuk</li>
+                </a>
+                <a href="./signup.html">
+                    <li class="list-signup">Daftar</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Akhir komponen navbar -->
+
+
+    <!-- Komponen hero -->
+    <section class="hero-wonderful">
+        <img src="./assets/image/square.svg" class="square-img" alt="square">
+        <!-- <img src="./assets/image/dekorasimap.svg" class="map-img" alt="square"> -->
+        <div class="left-hero-wonderful">
+            <h1 class="title-hero-wonderful"><span class="textTitleTarget">Nusantara</span> : Pesona Alam,<span class="textTitleTarget"> Cita Rasa,</span> dan Rempah-rempah</h1>
+            <p class="description-hero-wonderful">
+                Selamat datang dalam petualangan menakjubkan mengarungi keindahan Indonesia. 
+                Temukan alam memukau, budaya kaya, dan destinasi wisata yang mengagumkan di seluruh negeri.
+            </p>
+            <div class="wrapper-button-hero-wonderful">
+                <button class="btn-hero-wonderful btn-hero-1">Eksplorasi <i class="fas fa-arrow-right"></i></button>
+                <button class="btn-hero-wonderful btn-hero-2" id="openModalBtn">Mulai Video <i class="fas fa-play"></i></button>
+            </div>
+        </div> 
+        <div class="right-hero-wonderful">
+            <img data-aos="fade-up" src="./assets/image/people2.webp" class="people" alt="peoplehero">
+        </div>
+    </section>
+    <!-- Akhir komponen hero -->
+
+
+    <!-- Komponen section1 -->
+    <section class="section1-wonderful">
+        <h3 class="category">Kategori</h3>
+        <h2>🏔️ Jenis Kekayaan Indoesia</h2>
+        <div class="wrapper-card-section1-wonderful">
+            <div data-aos="fade-up" data-aos-duration='500' class="card-section1-wonderful">
+                <div class="card-top-section1-wonderful">
+                    <div class="label-card-wonderful">
+                        Informasi
+                    </div>
+                    <img src="./assets/image/hutan2.webp" alt="img-card">
+                </div>
+                <div class="card-bottom-section1-wonderful">
+                    <h3>Wisata Alam</h3>
+                    <p>Alam indosia begitu luas dengan daratan dan lautan biru.</p>
+                    <a target="__blank" href="./forest.html">
+                        <button class="btn-card-section1-wonderful">
+                           <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration='1000' class="card-section1-wonderful">
+                <div class="card-top-section1-wonderful">
+                    <div class="label-card-wonderful">
+                        Informasi
+                    </div>
+                    <img src="./assets/image/spice2.webp" alt="img-card">
+                </div>
+                <div class="card-bottom-section1-wonderful">
+                    <h3>Rempah</h3>
+                    <p>Pesona laut biru dan pantai yang mempesona sangat nyaman.</p>
+                    <a target="__blank" href="./spice.html">
+                        <button class="btn-card-section1-wonderful">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div  data-aos="fade-up" data-aos-duration='1500' class="card-section1-wonderful">
+                <div class="card-top-section1-wonderful">
+                    <div class="label-card-wonderful">
+                        Informasi
+                    </div>
+                    <img src="./assets/image/citarasa1.webp" alt="img-card">
+                </div>
+                <div class="card-bottom-section1-wonderful">
+                    <h3>Cita Rasa</h3>
+                    <p>Kenikmatan yang mengunggah selera yang khas.</p>
+                    <a target="__blank" href="./taste.html">
+                        <button class="btn-card-section1-wonderful">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen section1 -->
+
+
+    <!-- Komponen section2 -->
+    <section class="section2-wonderful">
+        <img src="./assets/image/square.svg" class="square-img" alt="square">
+        <h2>🏕️ Wisata Setiap Pulau</h2>
+        <p>
+            Peta interaktif yang dapat kalian klik untuk melihat beberapa daftar dan informasi wisata menarik pada setiap pulau di Nusantara, Indonesia.
+        </p>
+        <div class="wrapper-map">
+            <div class="circle-map circle-sumatera" id="openModalBtnSumatera">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <img src="./assets/image/sumateramap.webp" id="sumatera" alt="sumatera">
+            <div class="circle-map circle-jawa" id="openModalBtnJawa">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <img src="./assets/image/jawamap.webp" id="jawa" alt="jawa">
+            <div class="circle-map circle-kalimantan" id="openModalBtnKalimantan">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <img src="./assets/image/kalimantanmap.webp" id="kalimantan" alt="kalimantan">
+            <div class="circle-map circle-sulawesi" id="openModalBtnSulawesi">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <img src="./assets/image/sulawesi.webp" id="sulawesi" alt="sulawesi">
+            <div class="circle-map circle-papua" id="openModalBtnPapua">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <img src="./assets/image/papuamap.webp" id="papua" alt="papua">
+        </div>
+    </section>
+    <!-- Akhir komponen section2 -->
+
+
+    <!-- Komponen section4 -->
+    <section class="section3-wonderful" id="artikel">
+        <div class="wrapper-top-section4-wonderful">
+            <div class="left-top-section4-wonderful">
+                <h4>MENGENAL DESTINIZE</h3>
+                <h2>🗞️ Artikel Wisata Nusantara</h2>
+            </div>
+            <div class="right-top-section4-wonderful">
+                <a>Lihat semua</a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-section4-wonderful">
+            <div data-aos="fade-up" data-aos-duration='500' class="card-artikel3">
+                <div class="card-top-artikel-wonderful">
+                    <img src="./assets/image/article2.webp" alt="img-card">
+                </div>
+                <div class="description-artikel2-wonderful">
+                    <h2>Kawah Bromo</h2>
+                </div>
+                <a href="./articleBromo.html">
+                    <button class="btn-card-artikel">Eksplorasi</button>
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration='700'' class="card-artikel2">
+                <div class="card-top-artikel-wonderful">
+                    <img src="./assets/image/lombok.jpg" alt="img-card">
+                </div>
+                <div class="label-card-artikel">
+                    Up to <span>50%</span> off
+                </div>
+                <div class="description-artikel2-wonderful">
+                    <h2>Lombok</h2>
+                </div>
+                <a href="./articleLombok.html">
+                    <button class="btn-card-artikel2">Eksplorasi</button>
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration='900' class="card-artikel3">
+                <div class="card-top-artikel-wonderful">
+                    <img src="./assets/image/pinus.jpg" alt="img-card">
+                </div>
+                <div class="description-artikel2-wonderful">
+                    <h2>Hutan Pinus</h2>
+                </div>
+                <a href="./articleHutanPinus.html">
+                    <button class="btn-card-artikel">Eksplorasi</button>
+                </a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-section4-wonderful">
+            <div data-aos="fade-up" data-aos-duration='500' class="card-artikel">
+                <div class="card-top-artikel-wonderful">
+                    <img src="./assets/image/komodo2.webp" alt="img-card">
+                </div>
+                <div class="description-artikel-wonderful">
+                    <h2>Pulau Komodo</h2>
+                    <small>
+                        Pulau Komdo tempat berkembang nya hewan bernama Komodo.
+                    </small>
+                </div>
+                <a href="./articlePulauKomodo.html">
+                    <button class="btn-card-artikel">Eksplorasi</button>
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration='1000' class="card-artikel2b">
+                <div class="card-top-artikel-wonderful">
+                    <img src="./assets/image/kawah.jpg" alt="img-card">
+                </div>
+                <div class="description-artikel2b-wonderful">
+                    <h2>Tips minum air kawah biar lidah melepuh 😁</h2>
+                    <p>
+                        Lidah melepuh? why nott, kawah bukan untuk dilihat kawan.. 
+                        tapi untuk di minum.. rasakan kepanasan yang brutal 🔥
+                    </p>
+                    <div class="wrapper-tag-artikel">
+                        <span>Google</span>
+                        <span>Trending</span>
+                        <span>Baru</span>
+                    </div>
+                </div>
+                <button class="btn-card-artikel2b">Eksplorasi</button>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen section4 -->
+
+
+    <!-- Komponen section3 -->
+    <section class="section4-wonderful">
+        <h2>🎒 Rencanakan Liburan Anda</h2>
+        <p>
+            Bagi banyak orang mengatur perjalanan adalah sakit kepala. 
+            Klik 3 pilihan yang ada peta interaktif di bawah dan anda melihat tentang tempat itu secara detail
+        </p>
+        <img src="./assets/image/map.svg" class="nap" alt="mapinteraktif">
+    </section>
+    <!-- Akhir komponen section3 -->
+
+
+    <!-- Komponen section5 -->
+    <section class="section5-wonderful" id="destinasi">
+        <div class="wrapper-top-section5-wonderful">
+            <div class="left-top-section5-wonderful">
+                <h4 class="title-h4">DESTINASI FAVORIT</h3>
+                <h2>⛰️ Rekomendasi Wisata Alam</h2>
+            </div>
+            <div class="right-top-section5-wonderful">
+                <a>Lihat semua</a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-section5-wonderful">
+            <div class="bottom-list-destination">
+                <div class="wrap-bottom-wonderful">
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/rajaampat1.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Raja Ampat</h4>
+                                <p>Papua Barat</p>
+                            </div>
+                            <a href="./detailSiteRajaAmpat.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/danautoba1.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Danau Toba</h4>
+                                <p>Sumatra Utara</p>
+                            </div>
+                            <a href="./detailSiteDanauToba.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/gunung.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Kawah Bromo</h4>
+                                <p>Jawa Timur</p>
+                            </div>
+                            <a href="./detailSiteBromo.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/lombok1.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Lombok</h4>
+                                <p>Nusa Tenggara Barat</p>
+                            </div>
+                            <a href="#">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/komodo1.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Pulau Komodo</h4>
+                                <p>Nusa Tenggara Timur</p>
+                            </div>
+                            <a href="#">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen section5 -->
+
+
+    <!-- Komponen section6 -->
+    <section class="section6-wonderful" id="citarasa">
+        <img src="./assets/image/square.svg" class="square-img" alt="square">
+        <div class="left-section6-wonderful">
+            <h4>MAKANAN TRADISIONAL</h4>
+            <h2>JunkFood? makanan khas daerah aja! 🍲</h2>
+            <p>
+                Banyak makanan sehat dan enak di Indonesia yang harus kamu cicipin nih gaes. 
+                Dari yang berkuah hingga yang kering ada semua. Memili cita rasa yang luar biasa pada setiap daerahnya
+            </p>
+            <div class="wrapper-child-section6">
+                <div class="child-section6 child1">
+                    Soto Betawi
+                </div>
+                <div class="child-section6 child2">
+                    Ayam Taliwang
+                </div>
+                <div class="child-section6 child3">
+                    Kerak Telor
+                </div>
+                <div class="child-section6 child4">
+                    Sate Lilit
+                </div>
+                <div class="child-section6 child5">
+                    Rendang
+                </div>
+                <div class="child-section6 child6">
+                    Nasi Goreng
+                </div>
+                <div class="child-section6 child6">
+                    Bakso
+                </div>
+                <div class="child-section6 child6">
+                    Pempek
+                </div>
+                <div class="child-section6 child6">
+                        Bika Ambon
+                </div>
+            </div>
+        </div>
+        <div class="right-section6-wonderful" data-aos="fade-up" data-aos-duration='700'>
+            <img src="./assets/image/food.webp" alt="cardsection">
+        </div>
+    </section>
+    <!-- Akhir komponen section6 -->
+
+
+    <!-- Komponen sectionList6 -->
+    <section class="sectionList-wonderful">
+        <div class="wrapper-top-sectionList-wonderful">
+            <div class="left-top-sectionList-wonderful">
+                <h4>MAKANAN TRADISIONAL</h4>
+                <h2>🍲 Makanan Khas Nusantara</h2>
+            </div>
+            <div class="right-top-sectionList-wonderful">
+                <a>Lihat semua</a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-sectionList-wonderful">
+            <div class="bottom-list-destination">
+                <div class="wrap-bottom-wonderful">
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/sate2.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Sate Lilit</h4>
+                                <p>Bali</p>
+                            </div>
+                            <a href="./detailFoodSate.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/sotobetawi2.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Soto Betawi</h4>
+                                <p>DKI Jakarta</p>
+                            </div>
+                            <a href="./detailFoodSotoBetawi.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/rendang.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Rendang</h4>
+                                <p>Sumatera Barat</p>
+                            </div>
+                            <a href="./detailFoodRendang.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/nasigoreng.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Nasi Goreng</h4>
+                                <p>Seluruh Indonesa</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/sotoayam.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Soto Ayam</h4>
+                                <p>Seluruh Indonesia</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen sectionList6 -->
+
+
+    <!-- Komponen section7 -->
+    <section class="section7-wonderful" id="rempahrempah">
+        <img src="./assets/image/square.svg" class="square-img" alt="square">
+        <div class="left-section7-wonderful">
+            <h4>KEKAYAAN ALAM</h4>
+            <h2>Indonesia Kaya Akan Rempah-rempah! 🧅</h2>
+            <p>
+                Banyak makanan sehat dan enak di Indonesia yang harus kamu cicipin nih gaes. 
+                Dari yang berkuah hingga yang kering ada semua. Memili cita rasa yang luar biasa pada setiap daerahnya
+            </p>
+            <div class="wrapper-child-section7">
+                <div class="child-section7 child1">
+                    Kemiri
+                </div>
+                <div class="child-section7 child2">
+                    Sereh
+                </div>
+                <div class="child-section7 child3">
+                    Lengkuas
+                </div>
+                <div class="child-section7 child5">
+                    Jahe
+                </div>
+                <div class="child-section7 child4">
+                    Cabai Merah
+                </div>
+                <div class="child-section7 child6">
+                    Kunyit
+                </div>
+                <div class="child-section7 child6">
+                    Bawang
+                </div>
+                <div class="child-section7 child6">
+                    Ketumbar 
+                </div>
+                <div class="child-section7 child6">
+                    Lada Hitam
+                </div>
+            </div>
+        </div>
+        <div class="right-section7-wonderful" data-aos="fade-up" data-aos-duration='700'>
+            <img src="./assets/image/buah.webp" alt="cardsection">
+        </div>
+    </section>
+    <!-- Akhir komponen section7 -->
+
+
+    <!-- Komponen sectionList7 -->
+    <section class="sectionList-wonderful">
+        <div class="wrapper-top-sectionList-wonderful">
+            <div class="left-top-sectionList-wonderful">
+                <h4>BERAGAM REMPAH</h4>
+                <h2>🧅 Beragam Macam Rempah </h2>
+            </div>
+            <div class="right-top-sectionList-wonderful">
+                <a>Lihat semua</a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-sectionList-wonderful">
+            <div class="bottom-list-destination">
+                <div class="wrap-bottom-wonderful">
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/jahe.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Jahe</h4>
+                                <p>Jawa Tengah, Jawa Barat, Sumatera Utara</p>
+                            </div>
+                            <a href="./detailRempahJahe.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/Sereh.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Sereh</h4>
+                                <p>Jawa Barat, Bali, Jawa Timur</p>
+                            </div>
+                            <a href="./detailRempahSereh.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/kunyit.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Kunyit</h4>
+                                <p>Jawa, Bali, Sumatera</p>
+                            </div>
+                            <a href="./detailRempahKunyit.html" target="__blank">
+                                <button class="btn-card-destination">Eksplorasi</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/cabai.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Cabai Merah</h4>
+                                <p>Jawa Barat, Jawa Timur, Sumatera Utara</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/kemiri.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Kemiri</h4>
+                                <p>Jawa, Bali, Sumatera</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen sectionList7 -->
+
+
+    <!-- Komponen footer -->
+    <div class="footer-wonderful">
+        <div class="footer-card">
+            <div>
+                <h1>Dapatkan Informasi Nusantara 🍃</h1>
+                <p>Hubungi dan terus ikuti perkembangan terbaru seputar alam dan kekayaan sumber daya nusantara</p>
+            </div>
+            <button>Dapatkan</button>
+        </div>
+        <div class="footer-body-mz2">
+            <div class="footer-body-desc-mz2">
+                <h1>WONDERFUL.ID 🍃</h1>
+                <p>Platform penyedia informasi seputar cita rasa, pesona dan kekayaan alam indonesia.</p>
+                <div class="footer-body-icon-mz2">
+                    <img src="https://images-builder.vercel.app/img/instagram_footermz1.svg" alt="icon-fb"> <img src="https://images-builder.vercel.app/img/wa_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/youtube_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/linkedin_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/twiter_footermz1.svg" alt="icon-fb">
+                </div>
+            </div>
+            <div class="footer-body-list-mz2">
+                <ul>
+                    <li>Home</li>
+                    <li>Beranda</li>
+                    <li>Jenis Kekayaan Alam</li>
+                    <li>Reservasi</li>
+                    <li>Destinasi</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                    <li>Artikel</li>
+                    <li>Detail Artikel</li>
+                    <li>Detail Destinasi</li>
+                    <li>Rempah-rempah</li>
+                </ul>
+                <ul>
+                    <li>Contact</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir komponen footer -->
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn"><i class="fas fa-times"></i></span>
+            <h2>WONDERFUL.ID 🍃</h2>
+            <div class="wrapper-video-wonderful">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aKtb7Y3qOck?start=27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal -->
+
+
+    <!-- Modal Sumatera-->
+    <div id="mySumatera" class="modalMap">
+        <div class="modal-content-map">
+            <span class="close" id="closeModalBtnSumatera"><i class="fas fa-times"></i></span>
+            <h2>Sumatera</h2>
+            <div class="wrapper-sites-wonderful">
+                <div class="left-sites-wonderful">
+                    <img src="./assets/image/sumatera.svg" alt="map">
+                </div>
+                <div class="right-sites-wonderful">
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site4.webp" alt="bg-card">
+                        <p>Danau Toba</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site5.webp" alt="bg-card">
+                        <p>Bukit Lawang</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site3.webp" alt="bg-card">
+                        <p>Pulau Simeulue</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site1.webp" alt="bg-card">
+                        <p>Bukittinggi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal Sumatera -->
+
+
+    <!-- Modal Jawa-->
+    <div id="myJawa" class="modalMap">
+        <div class="modal-content-map">
+            <span class="close" id="closeModalBtnJawa"><i class="fas fa-times"></i></span>
+            <h2>Jawa</h2>
+            <div class="wrapper-sites-wonderful">
+                <div class="left-sites-wonderful">
+                    <img src="./assets/image/sumatera.svg" alt="map">
+                </div>
+                <div class="right-sites-wonderful">
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site6.webp" alt="bg-card">
+                        <p>Gunung Merapi</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site2.webp" alt="bg-card">
+                        <p>Pantai Parangtritis</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site7.webp" alt="bg-card">
+                        <p>Pulau Dewata</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site11.webp" alt="bg-card">
+                        <p>Karimun Jawa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal Jawa -->
+
+
+    <!-- Modal Kalimantan-->
+    <div id="myKalimantan" class="modalMap">
+        <div class="modal-content-map">
+            <span class="close" id="closeModalBtnKalimantan"><i class="fas fa-times"></i></span>
+            <h2>Kalimantan</h2>
+            <div class="wrapper-sites-wonderful">
+                <div class="left-sites-wonderful">
+                    <img src="./assets/image/sumatera.svg" alt="map">
+                </div>
+                <div class="right-sites-wonderful">
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site3.webp" alt="bg-card">
+                        <p>Kota Tarakan</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site6.webp" alt="bg-card">
+                        <p>Pulau Derawan</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site9.webp" alt="bg-card">
+                        <p>Taman Nasional Kutai</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site12.webp" alt="bg-card">
+                        <p>Sangatta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal Kalimantan -->
+
+
+    <!-- Modal Sulawesi-->
+    <div id="mySulawesi" class="modalMap">
+        <div class="modal-content-map">
+            <span class="close" id="closeModalBtnSulawesi"><i class="fas fa-times"></i></span>
+            <h2>Sulawesi</h2>
+            <div class="wrapper-sites-wonderful">
+                <div class="left-sites-wonderful">
+                    <img src="./assets/image/sumatera.svg" alt="map">
+                </div>
+                <div class="right-sites-wonderful">
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site4.webp" alt="bg-card">
+                        <p>Bunaken</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site2.webp" alt="bg-card">
+                        <p>Pulau Wakatobi</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site5.webp" alt="bg-card">
+                        <p>Tana Beru</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site7.webp" alt="bg-card">
+                        <p>Kendari</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal Sulawesi -->
+
+
+    <!-- Modal Papua-->
+    <div id="myPapua" class="modalMap">
+        <div class="modal-content-map">
+            <span class="close" id="closeModalBtnPapua"><i class="fas fa-times"></i></span>
+            <h2>Papua</h2>
+            <div class="wrapper-sites-wonderful">
+                <div class="left-sites-wonderful">
+                    <img src="./assets/image/sumatera.svg" alt="map">
+                </div>
+                <div class="right-sites-wonderful">
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site1.webp" alt="bg-card">
+                        <p>Manokwari</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site1.webp" alt="bg-card">
+                        <p>Raja Ampat</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site1.webp" alt="bg-card">
+                        <p>Cendrawasih Bay</p>
+                    </div>
+                    <div class="card-sites">
+                        <div class="overlay-card-sites"></div>
+                        <img src="./assets/image/site1.webp" alt="bg-card">
+                        <p>Biak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir modal Papua -->
+
+
+    <!-- Script Javascript -->
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Akhir script Javascript -->
+
+
+</body>
+</html>

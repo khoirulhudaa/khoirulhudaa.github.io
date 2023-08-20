@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Khoirulhuda">
+    <meta name="creator" content="Muhammad Khoirulhuda">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/detailFood.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
+    <link rel="stylesheet" href="./assets/styles/nav.css">
+    <title>WonderfulID - Article</title>
+</head>
+<body>
+
+    <!-- Komponen navbar -->
+    <<nav class="nav-wonderful">
+        <div class="left-nav-wonderful">
+            <a href="./index.html">
+                <h2>WONDERFUL.ID🍃</h2>
+            </a>
+        </div>
+
+        <!-- Toggle -->
+        <div class="btn-toggle-wonderful" id="openBtn">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+        </div>
+        <!-- Toggle -->
+
+        <div class="sidebare">
+            <i class="fas fa-times" id="closeBtn"></i>
+            <ul>
+                <a href="./index.html">
+                    <li>Beranda</li>
+                </a>
+                <a href="#informasi" id="informasii">
+                    <li>Informasi</li>
+                </a>
+                <a href="./signin.html">
+                    <li class="list-signin">Masuk</li>
+                </a>
+                <a href="./signup.html">
+                    <li class="list-signup">Daftar</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="right-nav-wonderful">
+            <ul>
+                <a href="./index.html">
+                    <li>Beranda</li>
+                </a>
+                <a href="#informasi">
+                    <li>Informasi</li>
+                </a>
+                <a href="./signin.html">
+                    <li class="list-signin">Masuk</li>
+                </a>
+                <a href="./signup.html">
+                    <li class="list-signup">Daftar</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Akhir komponen navbar -->
+
+
+    <!-- Komponen hero -->
+    <section class="hero-detailFood-wonderful">
+        <div class="left-hero-detailFood-wonderful">
+            <img src="./assets/image/square.svg" class="square" alt="square-decoration">
+            <div class="title-detailFood-wonderful">
+                <h1 class="title-main">Sereh</h1>
+                <p>Sereh adalah salah satu rempah-rempah yang memiliki sejumlah manfaat kesehatan yang telah dikenal dan digunakan secara tradisional. </p>
+                <small>Rempah-rempah</small>
+            </div>
+            <div class="wrapper-foto-detailFood">
+                <div class="child-foto-detailFood">
+                    <img src="./assets/image/Sereh.jpg" alt="foto">
+                </div>
+                <div class="child-foto-detailFood">
+                    <img src="./assets/image/sereh3.jpg" alt="foto">
+                </div>
+                <div class="child-foto-detailFood">
+                    <img src="./assets/image/Sereh.jpg" alt="foto">
+                </div>
+            </div>
+        </div>
+        <div class="right-hero-detailFood-wonderful">
+            <img src="./assets/image/sereh3.jpg" class="cultureimg" alt="bgArticle">
+        </div>
+    </section>
+    <!-- Akhir komponen hero -->
+
+
+     <!-- Komponen tabs -->
+    <div class="section-tabs" id="informasi">
+        <div class="tabs">
+            <div class="tab-button active" onclick="changeTab(0)">Deskripsi</div>
+            <div class="tab-button" onclick="changeTab(1)">Jenis</div>
+            <div class="tab-button" onclick="changeTab(2)">Manfaat</div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-item active">
+                <h2>Mau tahu apa Sereh..😀 ?</h2>
+                <p>
+                    Sereh, juga dikenal sebagai serai, adalah tumbuhan berdaun panjang yang memiliki a
+                    roma dan rasa yang khas. Sereh biasanya digunakan dalam berbagai masakan di seluruh 
+                    dunia, terutama dalam hidangan Asia Tenggara. Daun dan batangnya yang panjang sering d
+                    igunakan untuk memberikan rasa segar dan aroma unik pada makanan.
+                    <br>
+                </p>
+            </div>
+            <div class="tab-item">
+                <h2>Jenis-jenis Sereh</h2>
+                <table>
+                    <tr>
+                        <th>Jenis Sereh</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                    <tr>
+                        <td>Sereh Biasa (Cymbopogon citratus)</td>
+                        <td>Sereh biasa adalah jenis yang paling umum digunakan dan memiliki aroma dan rasa segar yang khas. Ini sering digunakan dalam masakan Asia Tenggara.</td>
+                    </tr>
+                    <tr>
+                        <td>Sereh Gajah (Cymbopogon giganteus)</td>
+                        <td>Sereh gajah memiliki daun dan batang yang lebih besar dibandingkan dengan sereh biasa. Ini sering digunakan dalam pengobatan tradisional.</td>
+                    </tr>
+                    <tr>
+                        <td>Sereh Wangi (Cymbopogon nardus)</td>
+                        <td>Sereh wangi memiliki aroma yang lebih tajam dan kuat. Ini sering digunakan dalam pembuatan minyak serai untuk penggunaan terapeutik.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab-item">
+                <h2>Manfaat Sereh 😉</h2>
+                <p>
+                    Sereh memiliki sejumlah manfaat kesehatan yang meliputi sifat antimikroba untuk melawan infeksi, 
+                    efek relaksan yang membantu meredakan stres, peningkatan sistem pencernaan untuk meredakan 
+                    masalah pencernaan seperti perut kembung, mual, dan diare, serta sifat antiinflamasi untuk 
+                    mengurangi peradangan dalam tubuh.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir komponen tabs -->
+    
+
+    <!-- Komponen sectionListArticle -->
+    <section class="sectionList-wonderful">
+        <div class="wrapper-top-sectionList-wonderful">
+            <div class="left-top-sectionList-wonderful">
+                <h4>BERAGAM REMPAH</h4>
+                <h2>🧅 Beragam Macam Rempah </h2>
+            </div>
+            <div class="right-top-sectionList-wonderful">
+                <a>Lihat semua</a>
+            </div>
+        </div>
+        <div class="wrapper-bottom-sectionList-wonderful">
+            <div class="bottom-list-destination">
+                <div class="wrap-bottom-wonderful">
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/jahe.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Jahe</h4>
+                                <p>Jawa Tengah, Jawa Barat, Sumatera Utara</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/Sereh.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Sereh</h4>
+                                <p>Jawa Barat, Bali, Jawa Timur</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/kunyit.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Kunyit</h4>
+                                <p>Jawa, Bali, Sumatera</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/cabai.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Cabai Merah</h4>
+                                <p>Jawa Barat, Jawa Timur, Sumatera Utara</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                    <div class="card-wonderful">
+                        <div class="card-top-wonderful">
+                            <img src="./assets/image/kemiri.jpg" alt="card-image">
+                        </div>
+                        <div class="card-bottom-wonderful">
+                            <div class="title-bottom-wonderful">
+                                <h4>Kemiri</h4>
+                                <p>Jawa, Bali, Sumatera</p>
+                            </div>
+                            <button class="btn-card-destination">Eksplorasi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir komponen sectionListArticle -->
+
+
+    <!-- Komponen footer -->
+    <div class="footer-wonderful">
+        <div class="footer-card">
+            <div>
+                <h1>Dapatkan Informasi Nusantara 🍃</h1>
+                <p>Hubungi dan terus ikuti perkembangan terbaru seputar alam dan kekayaan sumber daya nusantara</p>
+            </div>
+            <button>Dapatkan</button>
+        </div>
+        <div class="footer-body-mz2">
+            <div class="footer-body-desc-mz2">
+                <h1>WONDERFUL.ID 🍃</h1>
+                <p>Platform penyedia informasi seputar cita rasa, pesona dan kekayaan alam indonesia.</p>
+                <div class="footer-body-icon-mz2">
+                    <img src="https://images-builder.vercel.app/img/instagram_footermz1.svg" alt="icon-fb"> <img src="https://images-builder.vercel.app/img/wa_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/youtube_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/linkedin_footermz1.svg" alt="icon-fb">
+                    <img src="https://images-builder.vercel.app/img/twiter_footermz1.svg" alt="icon-fb">
+                </div>
+            </div>
+            <div class="footer-body-list-mz2">
+                <ul>
+                    <li>Home</li>
+                    <li>Beranda</li>
+                    <li>Jenis Kekayaan Alam</li>
+                    <li>Reservasi</li>
+                    <li>Destinasi</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                    <li>Artikel</li>
+                    <li>Detail Artikel</li>
+                    <li>Detail Destinasi</li>
+                    <li>Rempah-rempah</li>
+                </ul>
+                <ul>
+                    <li>Contact</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                    <li>@wonderful.ID 🍃</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir komponen footer -->
+
+    <script src="./assets/js/tab.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    
+</body>
+</html>
