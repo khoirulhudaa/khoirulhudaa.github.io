@@ -5,6 +5,7 @@
     padding: 50px 80px 50px 80px;
     margin-top: 40px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .footer-card {
