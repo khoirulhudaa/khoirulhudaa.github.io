@@ -1515,8 +1515,43 @@ iframe {
     overflow: hidden;
 }
 
-.left-sites-wonderful img {
+.left-sites-wonderful .sum {
+    width: 84%;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    transition: 0.2s;
+}
+
+.left-sites-wonderful .jaw {
     width: 80%;
+    transition: 0.2s;
+    position: relative;
+    left: 30px;
+    top: 130px;
+}
+
+.left-sites-wonderful .kali {
+    width: 84%;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    transition: 0.2s;
+}
+
+.left-sites-wonderful .sula {
+    width: 60%;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    transition: 0.2s;
+}
+
+.left-sites-wonderful .papu {
+    width: 80%;
+    position: relative;
+    left: 30px;
+    top: 30px;
     transition: 0.2s;
 }
 
@@ -1658,7 +1693,7 @@ iframe {
         z-index: 2;
         display: flex;
         height: max-content;
-        margin-top: 160px;
+        margin-top: 175px;
         position: relative;
         flex-direction: column;
     }

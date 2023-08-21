@@ -171,7 +171,7 @@
         color: rgb(11, 11, 11);
         text-align: center;
         box-sizing: border-box;
-        width: 90%;
+        width: 92%;
         border: 1px solid black;
         border-radius: 10px;
     }
@@ -180,7 +180,7 @@
         background-color: var(--primary-color);
         border-radius: 10px;
         text-align: center;
-        width: 90%;
+        width: 92%;
         box-sizing: border-box;
         padding: 10px 24px;
         color: white;
@@ -188,6 +188,7 @@
 
     .sidebare ul {
         margin-top: 50px;
+        margin-left: -20px;
         list-style: none;
     }
 
@@ -262,7 +263,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        top: 20px;
+        top: 24px;
         cursor: pointer;
         width: max-content;
         z-index: 999999999999999999999999999999999999;

@@ -114,6 +114,14 @@
     color: #a7abb6;
 }
 
+.footer-body-list-mz2 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #a7abb6;
+}
+
 .footer-body-list-mz2 ul li:nth-child(1) {
     font-size: 26px;
     font-weight: bold;
@@ -167,6 +175,7 @@
 
     .footer-body-desc-mz2 {
         width: 90vw;
+        margin-bottom: 35px;
     }
 
     .footer-body-desc-mz2 h1 {
