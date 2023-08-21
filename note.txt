@@ -1,0 +1,61 @@
+INDEX.HTML (HOMEPAGE)
+
+- NAVBAR
+-> Daftar menu biasa (in homepage)
+-> Daftar (signup.html)
+-> Masuk (signin.html)
+
+
+- HERO
+-> Explorasi (scroll to section1)
+-> Play video
+
+
+- SECTION 1
+-> WISATA ALAM (forest.html)
+-> REMPAH (spice.html)
+-> CITA RASA (taste.html)
+
+
+- SECTION 2 (Wisata setiap Pulau)
+-> SUMATERA (4 wisata)
+-> JAWA DAN BALI (4 wisata)
+-> KALIMANTAN (4 wisata)
+-> SULAWESI (4 wisata)
+-> PAPUA (4 wisata)
+
+
+- SECTION 3 (Artikel)
+-> KAWAH BROMO (articleBromo.html)
+-> LOMBOK (articleLombok.html)
+-> HUTAN PINUS (articleHutanPinus.html)
+-> PULAU KOMODO (articleBromo.html)
+-> AIR KAWAH (articleAirPanas.html)
+
+
+- SECTION 4 (Rencanakan liburab anda)
+-> MAP 
+
+
+- SECTION 5 (Rekomendasi wisata favorit)
+-> RAJA AMPAT (detailSiteRajaAmpat.html)
+-> DANAU TOBA (detailSiteDanauToba.html)
+-> KAWAH BROMO (detailSiteBromo.html)
+
+
+- SECTION 6 (JunkFood?)
+
+
+- SECTION 7 (Daftar makanan khas Nusantara)
+-> SATE LILIT (detailFoodSate.html)
+-> SOTO BETAWI (detailFoodSotoBetawi.html)
+-> RENDANG (detailFoodRendang.html)
+
+
+- SECTION 8 (Rempah-rempah)
+
+
+- SECTION 9 (Daftar rempah-rempah)
+-> JAHE (detailRempahJahe.html)
+-> SEREH (detailRempahSereh.html)
+-> KUNYIT (detailRempahKunyit.html)
