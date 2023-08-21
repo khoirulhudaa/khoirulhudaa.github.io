@@ -30,7 +30,6 @@ a {
 .hero-wonderful {
     position: relative;
     width: 100vw;
-    overflow-x: hidden;
     height: 100vh;
     display: flex;
     padding: 200px 0px 0 80px;
@@ -211,7 +210,6 @@ a {
 .section1-wonderful {
     width: 100vw;
     padding: 80px 80px 40px 80px;
-    overflow-x: hidden;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -322,7 +320,6 @@ a {
     position: relative;
     margin-top: 50px;
     width: 100vw;
-    overflow-x: hidden;
     padding: 0 80px;
     display: flex;
     box-sizing: border-box;
@@ -838,7 +835,6 @@ a {
     width: 100vw;
     padding: 0 80px;
     display: flex;
-    overflow-x: hidden;
     box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
