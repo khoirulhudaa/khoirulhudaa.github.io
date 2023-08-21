@@ -484,14 +484,14 @@ html {
 .title-bottom-wonderful h4 {
     width: 70%;
     height: max-content;
+    margin-top: 0px;
     font-size: 15px;
 }
 
 .title-bottom-wonderful p {
     position: relative;
-    color: #616161;
+    color: #a3a3a3;
     top: -14px;
-    font-size: 14px;
     font-weight: normal;
 }
 

@@ -2389,15 +2389,13 @@ iframe {
 
     .title-bottom-wonderful h4 {
         width: 70%;
-        font-size: 18px;
-        color: black;
-        margin-bottom: 0;
+        height: max-content;
         margin-top: 0px;
         font-size: 15px;
     }
-
+    
     .title-bottom-wonderful p {
-       display: none;
+        display: none;
     }
 
     .rating-wonderful {

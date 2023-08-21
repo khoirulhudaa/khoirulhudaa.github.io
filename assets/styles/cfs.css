@@ -304,14 +304,15 @@ ul a {
 .title-bottom-wonderful h4 {
     width: 70%;
     height: max-content;
+    margin-top: 0px;
     font-size: 15px;
 }
 
 .title-bottom-wonderful p {
     position: relative;
-    color: #ec0000;
+    color: #a3a3a3;
     top: -14px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .rating-wonderful {
