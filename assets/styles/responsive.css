@@ -216,41 +216,4 @@
         font-size: 14px;
         margin-bottom: 20px;
     }
-
-    .footer-wonderful {
-        padding: 30px;
-    }
-
-    .footer-card {
-        flex-direction: column;
-    }
-
-    .footer-card div {
-        width: 100%;
-    }
-
-    .footer-card button {
-        margin-top: 20px;
-    }
-
-    .footer-body-mz2 {
-        flex-direction: column;
-        margin: 30px;
-        gap: 20px;
-        padding: 0 0;
-    }
-
-    .footer-body-desc-mz2 {
-        width: 100%;
-    }
-
-    .footer-body-list-mz2 {
-        width: 100%;
-        flex-direction: column;
-        margin-top: 0px;
-    }
-
-    .footer-body-list-mz2 ul {
-        margin-top: 20px;
-    }
 }
