@@ -2181,7 +2181,6 @@ iframe {
         left: 20px;
     }
 
-
     .description-artikel2b-wonderful p {
         color: white;
         width: 80%;
@@ -2214,7 +2213,8 @@ iframe {
     .description-artikel2b-wonderful h2 {
         font-weight: bold;
         color: white;
-        font-size: 30px;
+        width: 92%;
+        font-size: 24px;
     }
 
     .description-artikel3-wonderful h2 {
@@ -2468,7 +2468,7 @@ iframe {
         position: relative;
         width: 100vw;
         height: max-content;
-        margin-top: 15px;
+        margin-top: -10px;
         margin-bottom: 40px;
         padding: 0 20px;
         box-sizing: border-box;
