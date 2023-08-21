@@ -156,6 +156,11 @@ a {
     margin-left: 10px;
 }
 
+.section1-wonderful span {
+    position: relative;
+    bottom: 5px;
+}
+
 .fa-play {
     margin-left: 10px;
 }
