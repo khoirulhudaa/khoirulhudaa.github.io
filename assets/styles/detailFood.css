@@ -624,6 +624,17 @@ th {
     z-index: -1;
 }
 
+button:hover {
+    transition: 0.1s;
+    filter: brightness(85%);
+    transform: scale(0.98);
+}
+
+button:active {
+    transition: 0.1s;
+    transform: scale(0.96);
+}
+
 
 @media screen and (max-width: 1000px) {
 

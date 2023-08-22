@@ -71,6 +71,27 @@
     margin-left: 40px;
 }
 
+ul li:hover {
+    color: var(--primary-color);
+}
+
+ul li:active {
+    transform: scale(0.96);
+    transform: 0.1s;
+}
+
+.list-signup:hover {
+    color: white;
+    filter: brightness(94%);
+    transform: scale(0.98);
+    transform: 0.1s;
+}
+
+.list-signup:active {
+    transform: scale(0.96);
+    transform: 0.1s;
+}
+
 .list-signin {
     padding: 10px 10px;
     border-radius: 10px;
@@ -81,6 +102,7 @@
     background-color: var(--primary-color);
     border-radius: 10px;
     color: white;
+    transform: 0.1s;
 }
 
 /* Nav 2 - White */

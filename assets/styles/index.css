@@ -15,6 +15,17 @@ html {
     --primary-color2: #EFE0B4;
 }
 
+button:hover {
+    transition: 0.1s;
+    filter: brightness(85%);
+    transform: scale(0.98);
+}
+
+button:active {
+    transition: 0.1s;
+    transform: scale(0.96);
+}
+
 * {
     font-family: 'Poppins', serif;
 }
