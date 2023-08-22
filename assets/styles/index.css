@@ -1741,6 +1741,14 @@ iframe {
         box-sizing: border-box;
         align-items: center;
     }
+
+    .title-hero-wonderful {
+        width: 90vw;
+    }
+
+    .title-hero-wonderful .br {
+        display: none;
+    }
     
     .hero-wonderful::after {
         position: absolute;
