@@ -1021,10 +1021,10 @@ a {
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 16px;
     justify-content: center;
     position: relative;
-    color: rgb(133, 133, 133);
+    color: rgb(145, 145, 145);
     height: 100%;
     animation: skeleton-animation 2s linear infinite;
 }
@@ -1035,7 +1035,7 @@ a {
         opacity: 0.3;
     }
     50% {
-        background-color: #bbbbbb;
+        background-color: #c4c4c4;
         opacity: 1;
     }
     100% {
