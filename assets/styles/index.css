@@ -1768,6 +1768,10 @@ iframe {
         position: relative;
         flex-direction: column;
     }
+
+    .description-artikel2-wonderful span {
+        display: none;
+    }
     
     .left-hero-wonderful h1 {
         position: relative;
