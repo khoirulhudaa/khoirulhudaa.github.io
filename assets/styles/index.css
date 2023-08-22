@@ -1683,6 +1683,14 @@ iframe {
 
 @media screen and (max-width: 1000px) {
 
+    img.lazyload {
+        filter: blur(5px);
+        transition: filter 0.3s;
+    }
+    img.lazyload.loaded {
+        filter: none;
+    }
+
     .square-img {
        display: none;
     }
