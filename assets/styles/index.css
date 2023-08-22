@@ -259,6 +259,7 @@ a {
     height: 600px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid rgb(199, 199, 199);
     overflow: hidden;
     box-shadow:
     0 2.8px 2.2px rgba(182, 182, 182, 0.034),
@@ -679,14 +680,14 @@ a {
     width: 32%;
     border-radius: 20px;
     overflow: hidden;
-    border: 1px solid rgb(141, 141, 141);
+    border: 1px solid rgb(199, 199, 199);
     height: 300px;
 }
 
 .card-artikel2b {
     position: relative;
     width: 66%;
-    border: 1px solid rgb(141, 141, 141);
+    border: 1px solid rgb(199, 199, 199);
     border-radius: 20px;
     overflow: hidden;
     height: 300px;
