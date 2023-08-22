@@ -301,6 +301,8 @@ a {
 .card-top-section1-wonderful img {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
 
 .card-bottom-section1-wonderful {
@@ -1000,16 +1002,61 @@ a {
     border: 1px solid rgb(212, 212, 212);
 }
 
+.skeleton-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px; 
+}
+
+.skeleton-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    justify-content: center;
+    position: relative;
+    color: rgb(133, 133, 133);
+    height: 100%;
+    animation: skeleton-animation 2s linear infinite;
+}
+
+@keyframes skeleton-animation {
+    0% {
+        background-color: #f0f0f0;
+        opacity: 0.3;
+    }
+    50% {
+        background-color: #bbbbbb;
+        opacity: 1;
+    }
+    100% {
+        background-color: #f0f0f0;
+        opacity: 0.3;
+    }
+}
+
 .card-top-wonderful {
     width: 100%;
     height: 55%;
     overflow: hidden;
+    position: relative;
     background-size: contain;
 }
 
 .card-top-wonderful img {
+    position: relative;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 
 .card-bottom-wonderful {
@@ -1918,8 +1965,10 @@ iframe {
     }
     
     .card-top-section1-wonderful img {
+        position: relative;
         width: 100%;
         height: auto;
+        z-index: 4;
     }
     
     .card-bottom-section1-wonderful {
