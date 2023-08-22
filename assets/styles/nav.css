@@ -49,6 +49,10 @@
     color: rgb(255, 255, 255);
 }
 
+.left-nav-wonderful2b a {
+    color: rgb(20, 20, 20);
+}
+
 .nav-wonderful .left-nav-wonderful {
     width: max-content;
 }
@@ -99,6 +103,10 @@
 }
 
 .nav-wonderful2 .left-nav-wonderful2 {
+    width: max-content;
+}
+
+.nav-wonderful2 .left-nav-wonderful2b {
     width: max-content;
 }
 
@@ -226,6 +234,10 @@
         width: max-content;
     }
 
+    .left-nav-wonderful2b {
+        width: max-content;
+    }
+
     .left-nav-wonderful2 h2 {
         width: max-content;
         color: rgb(255, 255, 255);
@@ -334,6 +346,10 @@
     }
 
     .nav-wonderful2 .left-nav-wonderful2 {
+        width: max-content;
+    }
+
+    .nav-wonderful2 .left-nav-wonderful2b {
         width: max-content;
     }
 
