@@ -6,6 +6,14 @@ body {
     overflow-x: hidden;
 }
 
+img.lazyload {
+    filter: blur(5px);
+    transition: filter 0.3s;
+}
+img.lazyload.loaded {
+    filter: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
