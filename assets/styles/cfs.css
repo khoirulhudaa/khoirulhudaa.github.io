@@ -357,7 +357,7 @@ ul a {
     z-index: 2;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     .hero-article-wonderful {
         height: 50vh;
     }
