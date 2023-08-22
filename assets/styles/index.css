@@ -2821,7 +2821,7 @@ iframe {
 
     .card-top-wonderful img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .card-bottom-wonderful {
