@@ -1110,7 +1110,6 @@ a {
     transition: 0.4s;
     filter: brightness(96%);
     cursor: pointer;
-    transform: scale(0.98);
 }
 
 .card-wonderful:active {
@@ -2540,7 +2539,6 @@ iframe {
         transition: 0.4s;
         filter: brightness(96%);
         cursor: pointer;
-        transform: scale(0.98);
     }
 
     .card-wonderful:active {
