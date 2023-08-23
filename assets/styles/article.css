@@ -316,7 +316,7 @@ html {
     display: flex;
     transition: 1s;
     overflow: auto;
-    padding-right: 70px;
+    padding-right: 30px;
     justify-content: space-between;
 }
 
