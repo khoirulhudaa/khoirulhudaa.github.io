@@ -1,4 +1,4 @@
-# Halaman Utama (INDEX.HTML)
+# Halaman Utama (index.html)
 
 ## Navbar
 - [Daftar](signup.html)
