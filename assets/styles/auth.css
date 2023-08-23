@@ -3,6 +3,7 @@
 :root {
     --primary-color: #00bad6;
     --primary-color2: #EFE0B4;
+    --dark-color: #009eb6;
 }
 
 body {
@@ -138,8 +139,10 @@ button:active {
     outline: none;
     width: 100%;
     border-radius: 10px;
+    overflow: hidden;
     color: white;
     margin-bottom: 24px;
+    transition: 0.2s;
     padding: 14px 20px;
     cursor: pointer;
     box-shadow:
@@ -147,6 +150,31 @@ button:active {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
     0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072)
+}
+
+.btn-form-1::before {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    border-radius: 2px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-color);
+    transition: transform 0.4s;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.btn-form-1:hover {
+    color: white;
+}
+
+.btn-form-1:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .btn-form-1:hover {

@@ -9,6 +9,7 @@ body {
 :root {
     --primary-color: #00b2ce;
     --primary-color2: #EFE0B4;
+    --dark-color: #009eb6;
 }
 
 * {
@@ -456,6 +457,31 @@ html {
     bottom: 20px;
     left: 20px;
     z-index: 2;
+}
+
+.btn-card-destination::before {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    border-radius: 2px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-color);
+    transition: transform 0.4s;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.btn-card-destination:hover {
+    color: white;
+}
+
+.btn-card-destination:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 

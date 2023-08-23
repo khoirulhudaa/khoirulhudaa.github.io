@@ -46,10 +46,12 @@
     top: 76px;
     border-radius: 12px;
     font-style: normal;
+    cursor: pointer;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #3d3d3d;
+    background-color: white;
     outline: none;
     border: none;
 }
