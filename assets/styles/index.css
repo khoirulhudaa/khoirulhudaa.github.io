@@ -1354,7 +1354,7 @@ a {
 
 .section7-wonderful h4 {
     font-weight: bold;
-    color: #4475F2;
+    color: var(--primary-color);
     margin-bottom: 0px;
 }
 
@@ -2697,7 +2697,7 @@ iframe {
 
     .section6-wonderful h4 {
         font-weight: bold;
-        color: #4475F2;
+        color: var(--primary-color);
         margin-bottom: 0px;
     }
 
@@ -2784,7 +2784,7 @@ iframe {
 
     .section7-wonderful h4 {
         font-weight: bold;
-        color: #4475F2;
+        color: var(--primary-color);
         margin-bottom: 0px;
     }
 
