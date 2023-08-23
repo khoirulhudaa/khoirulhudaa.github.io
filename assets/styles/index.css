@@ -201,6 +201,10 @@ a {
     bottom: 5px;
 }
 
+.category {
+    color: var(--primary-color);
+}
+
 .fa-play {
     margin-left: 10px;
 }
@@ -1271,7 +1275,7 @@ a {
 
 .section6-wonderful h4 {
     font-weight: bold;
-    color: #4475F2;
+    color: var(--primary-color);
     margin-bottom: 0px;
 }
 
@@ -1553,7 +1557,7 @@ a {
 
 .title-bottom-wonderful h4 {
     width: 70%;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     margin-bottom: 0;
 }
