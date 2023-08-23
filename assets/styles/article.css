@@ -316,7 +316,7 @@ html {
     display: flex;
     transition: 1s;
     overflow: auto;
-    padding-right: 30px;
+    padding-right: 120px;
     justify-content: space-between;
 }
 
@@ -577,6 +577,10 @@ button:active {
 
     .title-banner-article {
         top: 50px;
+    }
+
+    .wrap-bottom-wonderful {
+        padding-right: 30px;
     }
 
     .title-banner-article h1 {

@@ -260,7 +260,7 @@ ul a {
     display: flex;
     transition: 1s;
     overflow: auto;
-    padding-right: 30px;
+    padding-right: 120px;
     justify-content: space-between;
 }
 
@@ -471,6 +471,10 @@ button:active {
 
     .wrapper-description-artikel-wonderful p {
         font-size: 13px;
+    }
+
+    .wrap-bottom-wonderful {
+        padding-right: 30px;
     }
         
     .sectionList-wonderful {

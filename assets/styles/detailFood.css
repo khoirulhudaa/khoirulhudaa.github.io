@@ -440,7 +440,7 @@ html {
     display: flex;
     transition: 1s;
     overflow: auto;
-    padding-right: 30px;
+    padding-right: 120px;
     justify-content: space-between;
 }
 
@@ -726,6 +726,10 @@ button:active {
         top: 50px;
         margin-left: 20px;
         width: 90%;
+    }
+
+    .wrap-bottom-wonderful {
+        padding-right: 30px;
     }
 
     .wrapper-foto-detailFood {
