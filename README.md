@@ -8,7 +8,7 @@
 - Explorasi - scroll ke Section 1
 - Putar Video
 
-## Section 1
+## Section 1 (Jenis Kekayaan Indonesia)
 - [Wisata Alam](https://khoirulhudaa.github.io/forest.html)
 - [Rempah](https://khoirulhudaa.github.io/spice.html)
 - [Cita Rasa](https://khoirulhudaa.github.io/taste.html)
