@@ -452,6 +452,7 @@ html {
     font-size: 16px;
     background-color: transparent;
     position: absolute;
+    overflow: hidden;
     outline: none;
     border: 1px solid black;
     bottom: 20px;

@@ -397,6 +397,7 @@ ul a {
     background-color: transparent;
     position: absolute;
     outline: none;
+    overflow: hidden;
     border: 1px solid black;
     bottom: 20px;
     left: 20px;
