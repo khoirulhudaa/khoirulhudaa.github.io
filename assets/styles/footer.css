@@ -48,12 +48,44 @@
     font-style: normal;
     cursor: pointer;
     font-weight: 700;
+    overflow: hidden;
     font-size: 14px;
     line-height: 17px;
     color: #3d3d3d;
     background-color: white;
+    transition: 0.2s;
     outline: none;
     border: none;
+}
+
+.footer-card button::before {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    border-radius: 2px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-color);
+    transition: transform 0.4s;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.footer-card button:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.footer-card button:active {
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+.footer-card button:hover {
+    color: white;
 }
 
 .footer-body-mz2 {

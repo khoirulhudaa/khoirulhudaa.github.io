@@ -102,7 +102,30 @@ ul li:active {
     background-color: var(--primary-color);
     border-radius: 10px;
     color: white;
-    transform: 0.1s;
+    transition: 0.2s;
+    overflow: hidden;
+    position: relative;
+}
+
+.list-signup::before {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    border-radius: 2px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-color);
+    transition: transform 0.4s;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.list-signup:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 /* Nav 2 - White */
