@@ -1,4 +1,4 @@
-# Halaman Utama (index.html)
+# Halaman Utama (index.html) 📄
 
 ## Navbar
 - [Daftar](https://khoirulhudaa.github.io/index.html)
