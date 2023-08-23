@@ -5,7 +5,7 @@
 - [Masuk](https://khoirulhudaa.github.io/signin.html)
 
 ## Hero
-- [Explorasi](#section-1) (scroll ke Section 1)
+- Explorasi - scroll ke Section 1
 - Putar Video
 
 ## Section 1
@@ -28,7 +28,7 @@
 - [Air Kawah](https://khoirulhudaa.github.io/articleAirPanas.html)
 
 ## Section 4 (Rencanakan Liburan Anda)
-- [Peta](#section-4-map)
+- Peta
 
 ## Section 5 (Rekomendasi Wisata Favorit)
 - [Raja Ampat](https://khoirulhudaa.github.io/detailSiteRajaAmpat.html)
@@ -36,6 +36,7 @@
 - [Kawah Bromo](https://khoirulhudaa.github.io/detailSiteBromo.html)
 
 ## Section 6 (Junk Food)
+- Deskripsi
 
 ## Section 7 (Daftar Makanan Khas Nusantara)
 - [Sate Lilit](https://khoirulhudaa.github.io/detailFoodSate.html)
@@ -43,6 +44,7 @@
 - [Rendang](https://khoirulhudaa.github.io/detailFoodRendang.html)
 
 ## Section 8 (Rempah-rempah)
+- Deskripsi
 
 ## Section 9 (Daftar Rempah-rempah)
 - [Jahe](https://khoirulhudaa.github.io/detailRempahJahe.html)
