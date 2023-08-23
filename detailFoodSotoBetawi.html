@@ -1,363 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="author" content="Muhammad Khoirulhuda">
-    <meta name="creator" content="Muhammad Khoirulhuda">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/styles/detailFood.css">
-    <link rel="stylesheet" href="./assets/styles/footer.css">
-    <link rel="stylesheet" href="./assets/styles/responsive.css">
-    <link rel="stylesheet" href="./assets/styles/nav.css">
-    <title>WonderfulID - Soto Betawu</title>
-</head>
-<body>
-
-    <!-- Komponen navbar -->
-    <nav class="nav-wonderful2">
-        <div class="left-nav-wonderful2b">
-            <a href="./index.html">
-                <h2>WONDERFUL.ID🍃</h2>
-            </a>
-        </div>
-
-        <!-- Toggle -->
-        <div class="btn-toggle-wonderful" id="openBtn">
-            <div class="div"></div>
-            <div class="div"></div>
-            <div class="div"></div>
-        </div>
-        <!-- Toggle -->
-
-        <div class="sidebare">
-            <i class="fas fa-times" id="closeBtn"></i>
-            <ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="author" content="Muhammad Khoirulhuda" />
+        <meta name="creator" content="Muhammad Khoirulhuda" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/styles/detailFood.css" />
+        <link rel="stylesheet" href="./assets/styles/footer.css" />
+        <link rel="stylesheet" href="./assets/styles/responsive.css" />
+        <link rel="stylesheet" href="./assets/styles/nav.css" />
+        <title>WonderfulID - Soto Betawu</title>
+    </head>
+    <body>
+        <!-- Komponen navbar -->
+        <nav class="nav-wonderful2">
+            <div class="left-nav-wonderful2b">
                 <a href="./index.html">
-                    <li>Beranda</li>
+                    <h2>WONDERFUL.ID🍃</h2>
                 </a>
-                <a href="#informasi" id="informasii">
-                    <li>Informasi</li>
-                </a>
-                <a href="./signin.html">
-                    <li class="list-signin">Masuk</li>
-                </a>
-                <a href="./signup.html">
-                    <li class="list-signup">Daftar</li>
-                </a>
-            </ul>
-        </div>
+            </div>
 
-        <div class="right-nav-wonderful2">
-            <ul>
-                <a href="./index.html">
-                    <li>Beranda</li>
-                </a>
-                <a href="#informasi">
-                    <li>Informasi</li>
-                </a>
-                <a href="./signin.html">
-                    <li class="list-signin">Masuk</li>
-                </a>
-                <a href="./signup.html">
-                    <li class="list-signup">Daftar</li>
-                </a>
-            </ul>
-        </div>
-    </nav>
-    <!-- Akhir komponen navbar -->
+            <!-- Toggle -->
+            <div class="btn-toggle-wonderful" id="openBtn">
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+            </div>
+            <!-- Toggle -->
 
-
-    <!-- Komponen hero -->
-    <section class="hero-detailFood-wonderful">
-        <div class="left-hero-detailFood-wonderful">
-            <img loading="lazy" src="./assets/image/square.svg" class="square" alt="square-decoration">
-            <div class="title-detailFood-wonderful">
-                <h1 class="title-main">Soto Btwi</h1>
-                <p>Soto Betawi adalah hidangan sup tradisional khas Jakarta, yang terbuat dari daging sapi, jeroan (organ dalam), kentang, dan tomat.</p>
-                <small>Provinsi DKI Jakarta, Indonesia</small>
-            </div>
-            <div class="wrapper-foto-detailFood">
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/article1.jpg" alt="foto">
-                </div>
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/article2.jpg" alt="foto">
-                </div>
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/article1.jpg" alt="foto">
-                </div>
-            </div>
-        </div>
-        <div class="right-hero-detailFood-wonderful">
-            <img src="./assets/image/sotobetwawi.jpg" class="cultureimg" alt="bgArticle">
-        </div>
-    </section>
-    <!-- Akhir komponen hero -->
-
-
-     <!-- Komponen tabs -->
-    <div class="section-tabs" id="informasi">
-        <div class="tabs">
-            <div class="tab-button active" onclick="changeTab(0)">Deskripi</div>
-            <div class="tab-button" onclick="changeTab(1)">Resep</div>
-            <div class="tab-button" onclick="changeTab(2)">Jakarta</div>
-        </div>
-        <div class="tab-content">
-            <div class="tab-item active">
-                <h2>Apa Soto Betawi, hmmmm..😀 ?</h2>
-                <p>
-                    Soto Betawi adalah hidangan sup tradisional khas Jakarta, yang terbuat dari daging sapi, 
-                    jeroan (organ dalam), kentang, dan tomat yang dimasak dengan bumbu rempah-rempah khas. 
-                    Kuahnya kental dan gurih, biasanya dihasilkan dari campuran santan kelapa. Soto Betawi 
-                    disajikan dengan tambahan bawang merah goreng, daun seledri, dan sering disantap dengan 
-                    nasi putih. Hidangan ini memiliki rasa kaya dan aroma yang lezat, menciptakan pengalaman 
-                    kuliner yang istimewa.
-                    <br>
-                </p>
-            </div>
-            <div class="tab-item">
-                <h2>Resep Soto Betawi</h2>
-                <table>
-                    <tr>
-                      <th>Bahan</th>
-                      <th>Jumlah</th>
-                    </tr>
-                    <tr>
-                      <td>Daging sapi</td>
-                      <td>250 gram</td>
-                    </tr>
-                    <tr>
-                      <td>Jeroan sapi (hati, limpa, ginjal)</td>
-                      <td>100 gram</td>
-                    </tr>
-                    <tr>
-                      <td>Kentang</td>
-                      <td>2 buah (potong)</td>
-                    </tr>
-                    <tr>
-                      <td>Tomat</td>
-                      <td>2 buah (potong)</td>
-                    </tr>
-                    <tr>
-                      <td>Santan kelapa</td>
-                      <td>200 ml</td>
-                    </tr>
-                    <tr>
-                      <td>Bawang merah</td>
-                      <td>3 siung (haluskan)</td>
-                    </tr>
-                    <tr>
-                      <td>Bawang putih</td>
-                      <td>2 siung (haluskan)</td>
-                    </tr>
-                    <tr>
-                      <td>Jahe</td>
-                      <td>1 cm (haluskan)</td>
-                    </tr>
-                    <tr>
-                      <td>Kunyit bubuk</td>
-                      <td>1/2 sendok teh</td>
-                    </tr>
-                    <tr>
-                      <td>Kemiri</td>
-                      <td>2 butir (haluskan)</td>
-                    </tr>
-                    <tr>
-                      <td>Daun jeruk</td>
-                      <td>3 lembar</td>
-                    </tr>
-                    <tr>
-                      <td>Serai</td>
-                      <td>1 batang (memarkan)</td>
-                    </tr>
-                    <tr>
-                      <td>Lengkuas</td>
-                      <td>1 cm (memarkan)</td>
-                    </tr>
-                    <tr>
-                      <td>Garam</td>
-                      <td>Secukupnya</td>
-                    </tr>
-                    <tr>
-                      <td>Gula</td>
-                      <td>Secukupnya</td>
-                    </tr>
-                    <tr>
-                      <td>Air</td>
-                      <td>1 liter</td>
-                    </tr>
-                  </table>
-            </div>
-            <div class="tab-item">
-                <h2>Provinsi Jakarta 😉</h2>
-                <p>
-                    Provinsi Daerah Khusus Ibukota (DKI) Jakarta adalah ibu kota Indonesia. 
-                    Terletak di Pulau Jawa, provinsi ini adalah pusat politik, ekonomi, budaya, 
-                    dan pendidikan negara. Jakarta adalah salah satu kota terpadat di dunia, dengan 
-                    keanekaragaman budaya dan lanskap perkotaan yang modern. Selain menjadi pusat pemerintahan, 
-                    Jakarta memiliki berbagai landmark terkenal seperti Monas (Monumen Nasional) dan beberapa pusat 
-                    perbelanjaan mewah. Provinsi DKI Jakarta juga memiliki berbagai atraksi budaya, museum, dan taman 
-                    yang menawarkan wawasan lebih dalam tentang sejarah dan keragaman Indonesia.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir komponen tabs -->
-    
-
-    <!-- Komponen sectionListArticle -->
-    <section class="sectionList-wonderful">
-        <div class="wrapper-top-sectionList-wonderful">
-            <div class="left-top-sectionList-wonderful">
-                <h4>MAKANAN TRADISIONAL</h4>
-                <h2>🍲 Makanan Khas Nusantara</h2>
-            </div>
-            <div class="right-top-sectionList-wonderful">
-                <a>Lihat semua</a>
-            </div>
-        </div>
-        <div class="wrapper-bottom-sectionList-wonderful">
-            <div class="bottom-list-destination">
-                <div class="wrap-bottom-wonderful">
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/sate2.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Sate Lilit</h4>
-                                <p>Bali</p>
-                            </div>
-                            <a href="./detailFoodSate.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/sotobetawi2.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Soto Betawi</h4>
-                                <p>DKI Jakarta</p>
-                            </div>
-                            <a href="./detailFoodSotoBetawi.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/rendang.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Rendang</h4>
-                                <p>Sumatera Barat</p>
-                            </div>
-                            <a href="./detailFoodRendang.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/nasigoreng.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Nasi Goreng</h4>
-                                <p>Seluruh Indonesa</p>
-                            </div>
-                            <button class="btn-card-destination">Eksplorasi</button>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/sotoayam.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Soto Ayam</h4>
-                                <p>Seluruh Indonesia</p>
-                            </div>
-                            <button class="btn-card-destination">Eksplorasi</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Akhir komponen sectionListArticle -->
-
-
-    <!-- Komponen footer -->
-    <div class="footer-wonderful">
-        <div class="footer-card">
-            <div>
-                <h1>Dapatkan Informasi Nusantara 🍃</h1>
-                <p>Hubungi dan terus ikuti perkembangan terbaru seputar alam dan kekayaan sumber daya nusantara</p>
-            </div>
-            <button>Dapatkan</button>
-        </div>
-        <div class="footer-body-mz2">
-            <div class="footer-body-desc-mz2">
-                <h1>WONDERFUL.ID 🍃</h1>
-                <p>Platform penyedia informasi seputar cita rasa, pesona dan kekayaan alam indonesia.</p>
-                <div class="footer-body-icon-mz2">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/instagram_footermz1.svg" alt="icon-fb"> 
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/wa_footermz1.svg" alt="icon-wa">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/youtube_footermz1.svg" alt="icon-yt">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/linkedin_footermz1.svg" alt="icon-linkedin">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/twiter_footermz1.svg" alt="icon-twitter">
-                </div>
-            </div>
-            <div class="footer-body-list-mz2">
+            <div class="sidebare">
+                <i class="fas fa-times" id="closeBtn"></i>
                 <ul>
-                    <li>Home</li>
-                    <li>Beranda</li>
-                    <li>Jenis Kekayaan Alam</li>
-                    <li>Reservasi</li>
-                    <li>Destinasi</li>
-                </ul>
-                <ul>
-                    <li>About</li>
-                    <li>Artikel</li>
-                    <li>Detail Artikel</li>
-                    <li>Detail Destinasi</li>
-                    <li>Rempah-rempah</li>
-                </ul>
-                <ul>
-                    <li>Contact</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
+                    <a href="./index.html">
+                        <li>Beranda</li>
+                    </a>
+                    <a href="#informasi" id="informasii">
+                        <li>Informasi</li>
+                    </a>
+                    <a href="./signin.html">
+                        <li class="list-signin">Masuk</li>
+                    </a>
+                    <a href="./signup.html">
+                        <li class="list-signup">Daftar</li>
+                    </a>
                 </ul>
             </div>
-        </div>
-    </div>
-    <!-- Akhir komponen footer -->
 
-    <script src="./assets/js/tab.js"></script>
-    <script src="./assets/js/nav.js"></script>
-    
-</body>
+            <div class="right-nav-wonderful2">
+                <ul>
+                    <a href="./index.html">
+                        <li>Beranda</li>
+                    </a>
+                    <a href="#informasi">
+                        <li>Informasi</li>
+                    </a>
+                    <a href="./signin.html">
+                        <li class="list-signin">Masuk</li>
+                    </a>
+                    <a href="./signup.html">
+                        <li class="list-signup">Daftar</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <!-- Akhir komponen navbar -->
+
+        <!-- Komponen hero -->
+        <section class="hero-detailFood-wonderful">
+            <div class="left-hero-detailFood-wonderful">
+                <img
+                    loading="lazy"
+                    src="./assets/image/square.svg"
+                    class="square"
+                    alt="square-decoration"
+                />
+                <div class="title-detailFood-wonderful">
+                    <h1 class="title-main">Batagor</h1>
+                    <p>
+                        Batagor adalah hidangan khas Indonesia yang terdiri dari
+                        bakso ikan dan tahu goreng, biasanya disajikan dengan
+                        saus kacang dan saus pedas.
+                    </p>
+                    <small>Provinsi Jawa Barat, Indonesia</small>
+                </div>
+                <div class="wrapper-foto-detailFood">
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/batagor2.jpeg"
+                            alt="foto"
+                        />
+                    </div>
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/batagor3.jpeg"
+                            alt="foto"
+                        />
+                    </div>
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/batagor4.jpeg"
+                            alt="foto"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="right-hero-detailFood-wonderful">
+                <img
+                    src="./assets/image/batagor2.jpeg"
+                    class="cultureimg"
+                    alt="bgArticle"
+                />
+            </div>
+        </section>
+        <!-- Akhir komponen hero -->
+
+        <!-- Komponen tabs -->
+        <div class="section-tabs" id="informasi">
+            <div class="tabs">
+                <div class="tab-button active" onclick="changeTab(0)">
+                    Deskripi
+                </div>
+                <div class="tab-button" onclick="changeTab(1)">Resep</div>
+                <div class="tab-button" onclick="changeTab(2)">Jawa Barat</div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-item active">
+                    <h2>Apa Batagor, hmmmm..😀 ?</h2>
+                    <p>
+                        Batagor adalah makanan khas Indonesia yang memiliki akar
+                        dalam budaya kuliner Jawa Barat, terutama Bandung. Nama
+                        "batagor" sendiri adalah singkatan dari "Bakso Tahu
+                        Goreng," yang secara harfiah menggambarkan komponen
+                        utama hidangan ini.
+                        <br />
+                        <br />
+                        Batagor terdiri dari dua unsur utama yang menciptakan
+                        harmoni rasa yang unik. Pertama, ada bakso, yaitu
+                        bola-bola daging ikan tenggiri yang dicampur dengan
+                        tepung tapioka dan bumbu-bumbu seperti bawang putih,
+                        garam, dan merica. Bakso ini kemudian bisa digoreng
+                        hingga berwarna keemasan yang renyah atau direbus dalam
+                        kaldu yang lezat.
+                        <br />
+                        <br />
+                        Selain bakso, ada juga tahu goreng. Tahu ini biasanya
+                        dipotong menjadi potongan-potongan kecil dan digoreng
+                        hingga kulitnya menjadi garing sementara bagian dalamnya
+                        tetap lembut.
+                        <br />
+                        <br />
+                        Batagor disajikan dengan saus kacang yang gurih dan saus
+                        pedas yang memberikan sentuhan pedas yang lezat.
+                        Beberapa tempat mungkin juga menyajikan batagor dengan
+                        siomay, hidangan dim sum berisi daging ikan, dan telur
+                        puyuh sebagai pelengkap.
+                        <br />
+                        <br />
+                        Kelezatan batagor tidak hanya berasal dari kombinasi
+                        bakso ikan yang gurih dan tahu yang garing, tetapi juga
+                        dari saus kacang yang kaya rasa dan saus pedas yang
+                        memberikan kontras yang sempurna.
+                        <br />
+                        <br />
+                    </p>
+                </div>
+                <div class="tab-item">
+                    <h2>Resep Batagor</h2>
+                    <table>
+                        <tr>
+                            <th>Bahan-Bahan</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>Bakso Ikan Tenggiri</td>
+                            <td>250 gram</td>
+                        </tr>
+                        <tr>
+                            <td>Tahu Putih</td>
+                            <td>1 blok</td>
+                        </tr>
+                        <tr>
+                            <td>Tepung Tapioka</td>
+                            <td>100 gram</td>
+                        </tr>
+                        <tr>
+                            <td>Bawang Putih (cincang halus)</td>
+                            <td>2 siung</td>
+                        </tr>
+                        <tr>
+                            <td>Garam</td>
+                            <td>1/2 sendok teh</td>
+                        </tr>
+                        <tr>
+                            <td>Merica Bubuk</td>
+                            <td>1/4 sendok teh</td>
+                        </tr>
+                        <tr>
+                            <td>Tahu Kuning (untuk isi)</td>
+                            <td>1 blok</td>
+                        </tr>
+                        <tr>
+                            <td>Minyak Goreng</td>
+                            <td>Secukupnya (untuk menggoreng)</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tab-item">
+                    <h2>Provinsi Jakarta 😉</h2>
+                    <p>
+                        Jawa Barat adalah salah satu provinsi di Indonesia yang
+                        terletak di pulau Jawa. Provinsi ini dikenal karena
+                        keindahan alamnya, termasuk pegunungan yang memukau
+                        seperti Pegunungan Puncak dan Gunung Tangkuban Perahu.
+                        Ibu kota provinsi ini adalah Bandung, sebuah kota yang
+                        terkenal dengan budaya seni, kuliner, dan
+                        kreativitasnya.
+                        <br />
+                        <br />
+                        Jawa Barat juga memiliki warisan budaya yang kaya,
+                        termasuk seni wayang golek, tari jaipong, dan berbagai
+                        tradisi suku Sunda yang menarik. Provinsi ini adalah
+                        tempat kelahiran banyak makanan khas Indonesia, termasuk
+                        batagor, sate, dan nasi timbel.
+                        <br />
+                        <br />
+                        Selain itu, Jawa Barat memiliki beragam tempat wisata
+                        seperti danau, air terjun, dan hutan yang indah.
+                        Provinsi ini juga memiliki populasi yang beragam etnis
+                        dan agama, menciptakan keragaman budaya yang memukau.
+                        Dengan iklim yang sejuk dan masyarakat yang ramah, Jawa
+                        Barat adalah destinasi wisata yang menarik di Indonesia.
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir komponen tabs -->
+
+        <!-- Komponen sectionListArticle -->
+        <section class="sectionList-wonderful">
+            <div class="wrapper-top-sectionList-wonderful">
+                <div class="left-top-sectionList-wonderful">
+                    <h4>SELERA NUSANTARA</h4>
+                    <h2>🍲 Makanan Khas Nusantara</h2>
+                </div>
+                <div class="right-top-sectionList-wonderful">
+                    <a>Lihat semua</a>
+                </div>
+            </div>
+            <div class="wrapper-bottom-sectionList-wonderful">
+                <div class="bottom-list-destination">
+                    <div class="wrap-bottom-wonderful">
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/sate2.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Sate Lilit</h4>
+                                    <p>Bali</p>
+                                </div>
+                                <a
+                                    href="./detailFoodSate.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/sotobetawi2.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Batagor</h4>
+                                    <p>DKI Jakarta</p>
+                                </div>
+                                <a
+                                    href="./detailFoodSotoBetawi.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/rendang.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Rendang</h4>
+                                    <p>Sumatera Barat</p>
+                                </div>
+                                <a
+                                    href="./detailFoodRendang.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/nasigoreng.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Nasi Goreng</h4>
+                                    <p>Seluruh Indonesa</p>
+                                </div>
+                                <button class="btn-card-destination">
+                                    Eksplorasi
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/sotoayam.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Soto Ayam</h4>
+                                    <p>Seluruh Indonesia</p>
+                                </div>
+                                <button class="btn-card-destination">
+                                    Eksplorasi
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir komponen sectionListArticle -->
+
+        <!-- Komponen footer -->
+        <div class="footer-wonderful">
+            <div class="footer-card">
+                <div>
+                    <h1>Dapatkan Informasi Nusantara 🍃</h1>
+                    <p>
+                        Hubungi dan terus ikuti perkembangan terbaru seputar
+                        alam dan kekayaan sumber daya nusantara
+                    </p>
+                </div>
+                <button>Dapatkan</button>
+            </div>
+            <div class="footer-body-mz2">
+                <div class="footer-body-desc-mz2">
+                    <h1>WONDERFUL.ID 🍃</h1>
+                    <p>
+                        Platform penyedia informasi seputar cita rasa, pesona
+                        dan kekayaan alam indonesia.
+                    </p>
+                    <div class="footer-body-icon-mz2">
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/instagram_footermz1.svg"
+                            alt="icon-fb"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/wa_footermz1.svg"
+                            alt="icon-wa"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/youtube_footermz1.svg"
+                            alt="icon-yt"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/linkedin_footermz1.svg"
+                            alt="icon-linkedin"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/twiter_footermz1.svg"
+                            alt="icon-twitter"
+                        />
+                    </div>
+                </div>
+                <div class="footer-body-list-mz2">
+                    <ul>
+                        <li>Home</li>
+                        <li>Beranda</li>
+                        <li>Jenis Kekayaan Alam</li>
+                        <li>Reservasi</li>
+                        <li>Destinasi</li>
+                    </ul>
+                    <ul>
+                        <li>About</li>
+                        <li>Artikel</li>
+                        <li>Detail Artikel</li>
+                        <li>Detail Destinasi</li>
+                        <li>Rempah-rempah</li>
+                    </ul>
+                    <ul>
+                        <li>Contact</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir komponen footer -->
+
+        <script src="./assets/js/tab.js"></script>
+        <script src="./assets/js/nav.js"></script>
+    </body>
 </html>

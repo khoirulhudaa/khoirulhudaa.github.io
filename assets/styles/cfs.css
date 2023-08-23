@@ -182,9 +182,13 @@ ul a {
     justify-content: space-between;
 }
 
-.sectionList-wonderful h4 {
-    font-weight: bold;
+.left-top-sectionList-wonderful h4 {
     color: var(--primary-color);
+}
+
+.title-bottom-wonderful h4 {
+    font-weight: bold;
+    color: black;
 }
 
 .sectionList-wonderful h2 {

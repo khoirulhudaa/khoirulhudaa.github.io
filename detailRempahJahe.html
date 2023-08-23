@@ -1,320 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="author" content="Muhammad Khoirulhuda">
-    <meta name="creator" content="Muhammad Khoirulhuda">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/styles/detailFood.css">
-    <link rel="stylesheet" href="./assets/styles/footer.css">
-    <link rel="stylesheet" href="./assets/styles/responsive.css">
-    <link rel="stylesheet" href="./assets/styles/nav.css">
-    <title>WonderfulID - Jahe</title>
-</head>
-<body>
-
-    <!-- Komponen navbar -->
-    <nav class="nav-wonderful2">
-        <div class="left-nav-wonderful2b">
-            <a href="./index.html">
-                <h2>WONDERFUL.ID🍃</h2>
-            </a>
-        </div>
-
-        <!-- Toggle -->
-        <div class="btn-toggle-wonderful" id="openBtn">
-            <div class="div"></div>
-            <div class="div"></div>
-            <div class="div"></div>
-        </div>
-        <!-- Toggle -->
-
-        <div class="sidebare">
-            <i class="fas fa-times" id="closeBtn"></i>
-            <ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="author" content="Muhammad Khoirulhuda" />
+        <meta name="creator" content="Muhammad Khoirulhuda" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/styles/detailFood.css" />
+        <link rel="stylesheet" href="./assets/styles/footer.css" />
+        <link rel="stylesheet" href="./assets/styles/responsive.css" />
+        <link rel="stylesheet" href="./assets/styles/nav.css" />
+        <title>WonderfulID - Jahe</title>
+    </head>
+    <body>
+        <!-- Komponen navbar -->
+        <nav class="nav-wonderful2">
+            <div class="left-nav-wonderful2b">
                 <a href="./index.html">
-                    <li>Beranda</li>
+                    <h2>WONDERFUL.ID🍃</h2>
                 </a>
-                <a href="#informasi" id="informasii">
-                    <li>Informasi</li>
-                </a>
-                <a href="./signin.html">
-                    <li class="list-signin">Masuk</li>
-                </a>
-                <a href="./signup.html">
-                    <li class="list-signup">Daftar</li>
-                </a>
-            </ul>
-        </div>
+            </div>
 
-        <div class="right-nav-wonderful2">
-            <ul>
-                <a href="./index.html">
-                    <li>Beranda</li>
-                </a>
-                <a href="#informasi">
-                    <li>Informasi</li>
-                </a>
-                <a href="./signin.html">
-                    <li class="list-signin">Masuk</li>
-                </a>
-                <a href="./signup.html">
-                    <li class="list-signup">Daftar</li>
-                </a>
-            </ul>
-        </div>
-    </nav>
-    <!-- Akhir komponen navbar -->
+            <!-- Toggle -->
+            <div class="btn-toggle-wonderful" id="openBtn">
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+            </div>
+            <!-- Toggle -->
 
-
-    <!-- Komponen hero -->
-    <section class="hero-detailFood-wonderful">
-        <div class="left-hero-detailFood-wonderful">
-            <img loading="lazy" src="./assets/image/square.svg" class="square" alt="square-decoration">
-            <div class="title-detailFood-wonderful">
-                <h1 class="title-main">Jaheee</h1>
-                <p>Tumbuhan yang dikenal dengan akar rimpangnya, digunakan sebagai bumbu dapur dan berbagai manfaat kesehatan.</p>
-                <small>Rempah-rempah</small>
-            </div>
-            <div class="wrapper-foto-detailFood">
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/jahe.jpg" alt="foto">
-                </div>
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/jahe2.jpg" alt="foto">
-                </div>
-                <div class="child-foto-detailFood">
-                    <img loading="lazy" src="./assets/image/jahe.jpg" alt="foto">
-                </div>
-            </div>
-        </div>
-        <div class="right-hero-detailFood-wonderful">
-            <img src="./assets/image/jahe.jpg" class="cultureimg" alt="bgArticle">
-        </div>
-    </section>
-    <!-- Akhir komponen hero -->
-
-
-     <!-- Komponen tabs -->
-    <div class="section-tabs" id="informasi">
-        <div class="tabs">
-            <div class="tab-button active" onclick="changeTab(0)">Deskripsi</div>
-            <div class="tab-button" onclick="changeTab(1)">Jenis</div>
-            <div class="tab-button" onclick="changeTab(2)">Manfaat</div>
-        </div>
-        <div class="tab-content">
-            <div class="tab-item active">
-                <h2>Jahee...Apaan tuhhh😀 ?</h2>
-                <p>
-                    Jahe, atau ginger dalam bahasa Inggris, adalah tumbuhan yang dikenal dengan akar rimpangnya 
-                    yang digunakan sebagai bumbu dapur dan juga memiliki berbagai manfaat kesehatan.
-                    <br>
-                </p>
-            </div>
-            <div class="tab-item">
-                <h2>Jenis-jenis Jahe</h2>
-                <table>
-                    <tr>
-                        <th>Jenis Jahe</th>
-                        <th>Deskripsi</th>
-                    </tr>
-                    <tr>
-                        <td>Jahe Jahe (Zingiber officinale)</td>
-                        <td>Jahe putih dan jahe merah adalah varietas yang paling umum digunakan. Jahe putih memiliki kulit tipis dengan rasa pedas, sedangkan jahe merah memiliki kulit merah dan rasa manis.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Jahe (Zingiber zerumbet)</td>
-                        <td>Jahe jeruk memiliki aroma jeruk khas dan digunakan dalam hidangan khas Jepang dan Asia Tenggara.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Lengkuas (Alpinia galanga)</td>
-                        <td>Lengkuas sering digunakan dalam masakan Asia Tenggara dan memiliki rasa yang berbeda dengan jahe.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Halia Baru (Etlingera elatior)</td>
-                        <td>Jahe halia baru adalah bunga hias yang digunakan dalam hidangan khas Malaysia dan Indonesia.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Laut (Zingiber officinale var. maritimum)</td>
-                        <td>Jahe laut tumbuh di pesisir dan memiliki rasa yang tajam, cocok untuk hidangan laut.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Air (Zingiberaceae spp.)</td>
-                        <td>Jahe air tumbuh di air, memiliki rasa segar, dan sering digunakan dalam minuman.</td>
-                    </tr>
-                    <tr>
-                        <td>Jahe Gajah (Costus speciosus)</td>
-                        <td>Jahe gajah tumbuh di Asia Selatan dan digunakan dalam pengobatan tradisional.</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="tab-item">
-                <h2>Manfaat Jahe 😉</h2>
-                <p>
-                    Jahe juga dikenal memiliki berbagai manfaat kesehatan. Beberapa manfaatnya termasuk 
-                    meredakan mual dan muntah, mengurangi peradangan, meningkatkan pencernaan, dan membantu 
-                    mengatasi gejala flu dan pilek. Jahe juga telah dikaitkan dengan potensi sifat antioksidan 
-                    dan antiinflamasi yang dapat membantu menjaga kesehatan tubuh.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir komponen tabs -->
-    
-
-    <!-- Komponen sectionListArticle -->
-    <section class="sectionList-wonderful">
-        <div class="wrapper-top-sectionList-wonderful">
-            <div class="left-top-sectionList-wonderful">
-                <h4>BERAGAM REMPAH</h4>
-                <h2>🧅 Beragam Macam Rempah </h2>
-            </div>
-            <div class="right-top-sectionList-wonderful">
-                <a>Lihat semua</a>
-            </div>
-        </div>
-        <div class="wrapper-bottom-sectionList-wonderful">
-            <div class="bottom-list-destination">
-                <div class="wrap-bottom-wonderful">
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/jahe.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Jahe</h4>
-                                <p>Jawa Tengah, Jawa Barat</p>
-                            </div>
-                            <a href="./detailRempahJahe.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/Sereh.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Sereh</h4>
-                                <p>Jawa Barat, Bali, Jawa Timur</p>
-                            </div>
-                            <a href="./detailRempahSereh.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/kunyit.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Kunyit</h4>
-                                <p>Jawa, Bali, Sumatera</p>
-                            </div>
-                            <a href="./detailRempahKunyit.html" target="__blank">
-                                <button class="btn-card-destination">Eksplorasi</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/cabai.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Cabai Merah</h4>
-                                <p>Jawa Barat, Sumatera Utara</p>
-                            </div>
-                            <button class="btn-card-destination">Eksplorasi</button>
-                        </div>
-                    </div>
-                    <div class="card-wonderful">
-                        <div class="card-top-wonderful">
-                            <img loading="lazy" src="./assets/image/kemiri.jpg" alt="card-image">
-                            <div class="skeleton-card">
-                                <div class="skeleton-image">Memuat...</div>
-                            </div>
-                        </div>
-                        <div class="card-bottom-wonderful">
-                            <div class="title-bottom-wonderful">
-                                <h4>Kemiri</h4>
-                                <p>Jawa, Bali, Sumatera</p>
-                            </div>
-                            <button class="btn-card-destination">Eksplorasi</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Akhir komponen sectionListArticle -->
-
-
-    <!-- Komponen footer -->
-    <div class="footer-wonderful">
-        <div class="footer-card">
-            <div>
-                <h1>Dapatkan Informasi Nusantara 🍃</h1>
-                <p>Hubungi dan terus ikuti perkembangan terbaru seputar alam dan kekayaan sumber daya nusantara</p>
-            </div>
-            <button>Dapatkan</button>
-        </div>
-        <div class="footer-body-mz2">
-            <div class="footer-body-desc-mz2">
-                <h1>WONDERFUL.ID 🍃</h1>
-                <p>Platform penyedia informasi seputar cita rasa, pesona dan kekayaan alam indonesia.</p>
-                <div class="footer-body-icon-mz2">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/instagram_footermz1.svg" alt="icon-fb"> 
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/wa_footermz1.svg" alt="icon-wa">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/youtube_footermz1.svg" alt="icon-yt">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/linkedin_footermz1.svg" alt="icon-linkedin">
-                    <img loading="lazy" src="https://images-builder.vercel.app/img/twiter_footermz1.svg" alt="icon-twitter">
-                </div>
-            </div>
-            <div class="footer-body-list-mz2">
+            <div class="sidebare">
+                <i class="fas fa-times" id="closeBtn"></i>
                 <ul>
-                    <li>Home</li>
-                    <li>Beranda</li>
-                    <li>Jenis Kekayaan Alam</li>
-                    <li>Reservasi</li>
-                    <li>Destinasi</li>
-                </ul>
-                <ul>
-                    <li>About</li>
-                    <li>Artikel</li>
-                    <li>Detail Artikel</li>
-                    <li>Detail Destinasi</li>
-                    <li>Rempah-rempah</li>
-                </ul>
-                <ul>
-                    <li>Contact</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
-                    <li>@wonderful.ID 🍃</li>
+                    <a href="./index.html">
+                        <li>Beranda</li>
+                    </a>
+                    <a href="#informasi" id="informasii">
+                        <li>Informasi</li>
+                    </a>
+                    <a href="./signin.html">
+                        <li class="list-signin">Masuk</li>
+                    </a>
+                    <a href="./signup.html">
+                        <li class="list-signup">Daftar</li>
+                    </a>
                 </ul>
             </div>
-        </div>
-    </div>
-    <!-- Akhir komponen footer -->
 
-    <script src="./assets/js/tab.js"></script>
-    <script src="./assets/js/nav.js"></script>
-    
-</body>
+            <div class="right-nav-wonderful2">
+                <ul>
+                    <a href="./index.html">
+                        <li>Beranda</li>
+                    </a>
+                    <a href="#informasi">
+                        <li>Informasi</li>
+                    </a>
+                    <a href="./signin.html">
+                        <li class="list-signin">Masuk</li>
+                    </a>
+                    <a href="./signup.html">
+                        <li class="list-signup">Daftar</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <!-- Akhir komponen navbar -->
+
+        <!-- Komponen hero -->
+        <section class="hero-detailFood-wonderful">
+            <div class="left-hero-detailFood-wonderful">
+                <img
+                    loading="lazy"
+                    src="./assets/image/square.svg"
+                    class="square"
+                    alt="square-decoration"
+                />
+                <div class="title-detailFood-wonderful">
+                    <h1 class="title-main">Jahe</h1>
+                    <p>
+                        Tumbuhan yang dikenal dengan akar rimpangnya, digunakan
+                        sebagai bumbu dapur dan berbagai manfaat kesehatan.
+                    </p>
+                    <small>Rempah-rempah</small>
+                </div>
+                <div class="wrapper-foto-detailFood">
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/jahe.jpg"
+                            alt="foto"
+                        />
+                    </div>
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/jahe2.jpg"
+                            alt="foto"
+                        />
+                    </div>
+                    <div class="child-foto-detailFood">
+                        <img
+                            loading="lazy"
+                            src="./assets/image/jahe.jpg"
+                            alt="foto"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="right-hero-detailFood-wonderful">
+                <img
+                    src="./assets/image/jahe.jpg"
+                    class="cultureimg"
+                    alt="bgArticle"
+                />
+            </div>
+        </section>
+        <!-- Akhir komponen hero -->
+
+        <!-- Komponen tabs -->
+        <div class="section-tabs" id="informasi">
+            <div class="tabs">
+                <div class="tab-button active" onclick="changeTab(0)">
+                    Deskripsi
+                </div>
+                <div class="tab-button" onclick="changeTab(1)">Jenis</div>
+                <div class="tab-button" onclick="changeTab(2)">Manfaat</div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-item active">
+                    <h2>Jahee...Apaan yaa😀 ?</h2>
+                    <p>
+                        Jahe, atau ginger dalam bahasa Inggris, adalah tumbuhan
+                        yang dikenal dengan akar rimpangnya yang digunakan
+                        sebagai bumbu dapur dan juga memiliki berbagai manfaat
+                        kesehatan.
+                        <br />
+                    </p>
+                </div>
+                <div class="tab-item">
+                    <h2>Jenis-jenis Jahe</h2>
+                    <table>
+                        <tr>
+                            <th>Bahan-Bahan</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>Bakso Ikan Tenggiri</td>
+                            <td>250 gram</td>
+                        </tr>
+                        <tr>
+                            <td>Tahu Putih</td>
+                            <td>1 blok</td>
+                        </tr>
+                        <tr>
+                            <td>Tepung Tapioka</td>
+                            <td>100 gram</td>
+                        </tr>
+                        <tr>
+                            <td>Bawang Putih (cincang halus)</td>
+                            <td>2 siung</td>
+                        </tr>
+                        <tr>
+                            <td>Garam</td>
+                            <td>1/2 sendok teh</td>
+                        </tr>
+                        <tr>
+                            <td>Merica Bubuk</td>
+                            <td>1/4 sendok teh</td>
+                        </tr>
+                        <tr>
+                            <td>Tahu Kuning (untuk isi)</td>
+                            <td>1 blok</td>
+                        </tr>
+                        <tr>
+                            <td>Minyak Goreng</td>
+                            <td>Secukupnya (untuk menggoreng)</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tab-item">
+                    <h2>Manfaat Jahe 😉</h2>
+                    <p>
+                        Jahe juga dikenal memiliki berbagai manfaat kesehatan.
+                        Beberapa manfaatnya termasuk meredakan mual dan muntah,
+                        mengurangi peradangan, meningkatkan pencernaan, dan
+                        membantu mengatasi gejala flu dan pilek. Jahe juga telah
+                        dikaitkan dengan potensi sifat antioksidan dan
+                        antiinflamasi yang dapat membantu menjaga kesehatan
+                        tubuh.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir komponen tabs -->
+
+        <!-- Komponen sectionListArticle -->
+        <section class="sectionList-wonderful">
+            <div class="wrapper-top-sectionList-wonderful">
+                <div class="left-top-sectionList-wonderful">
+                    <h4>BERAGAM REMPAH</h4>
+                    <h2>🧅 Beragam Macam Rempah</h2>
+                </div>
+                <div class="right-top-sectionList-wonderful">
+                    <a>Lihat semua</a>
+                </div>
+            </div>
+            <div class="wrapper-bottom-sectionList-wonderful">
+                <div class="bottom-list-destination">
+                    <div class="wrap-bottom-wonderful">
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/jahe.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Jahe</h4>
+                                    <p>Jawa Tengah, Jawa Barat</p>
+                                </div>
+                                <a
+                                    href="./detailRempahJahe.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/Sereh.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Sereh</h4>
+                                    <p>Jawa Barat, Bali, Jawa Timur</p>
+                                </div>
+                                <a
+                                    href="./detailRempahSereh.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/kunyit.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Kunyit</h4>
+                                    <p>Jawa, Bali, Sumatera</p>
+                                </div>
+                                <a
+                                    href="./detailRempahKunyit.html"
+                                    target="__blank"
+                                >
+                                    <button class="btn-card-destination">
+                                        Eksplorasi
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/cabai.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Cabai Merah</h4>
+                                    <p>Jawa Barat, Sumatera Utara</p>
+                                </div>
+                                <button class="btn-card-destination">
+                                    Eksplorasi
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-wonderful">
+                            <div class="card-top-wonderful">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/image/kemiri.jpg"
+                                    alt="card-image"
+                                />
+                                <div class="skeleton-card">
+                                    <div class="skeleton-image">Memuat...</div>
+                                </div>
+                            </div>
+                            <div class="card-bottom-wonderful">
+                                <div class="title-bottom-wonderful">
+                                    <h4>Kemiri</h4>
+                                    <p>Jawa, Bali, Sumatera</p>
+                                </div>
+                                <button class="btn-card-destination">
+                                    Eksplorasi
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir komponen sectionListArticle -->
+
+        <!-- Komponen footer -->
+        <div class="footer-wonderful">
+            <div class="footer-card">
+                <div>
+                    <h1>Dapatkan Informasi Nusantara 🍃</h1>
+                    <p>
+                        Hubungi dan terus ikuti perkembangan terbaru seputar
+                        alam dan kekayaan sumber daya nusantara
+                    </p>
+                </div>
+                <button>Dapatkan</button>
+            </div>
+            <div class="footer-body-mz2">
+                <div class="footer-body-desc-mz2">
+                    <h1>WONDERFUL.ID 🍃</h1>
+                    <p>
+                        Platform penyedia informasi seputar cita rasa, pesona
+                        dan kekayaan alam indonesia.
+                    </p>
+                    <div class="footer-body-icon-mz2">
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/instagram_footermz1.svg"
+                            alt="icon-fb"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/wa_footermz1.svg"
+                            alt="icon-wa"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/youtube_footermz1.svg"
+                            alt="icon-yt"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/linkedin_footermz1.svg"
+                            alt="icon-linkedin"
+                        />
+                        <img
+                            loading="lazy"
+                            src="https://images-builder.vercel.app/img/twiter_footermz1.svg"
+                            alt="icon-twitter"
+                        />
+                    </div>
+                </div>
+                <div class="footer-body-list-mz2">
+                    <ul>
+                        <li>Home</li>
+                        <li>Beranda</li>
+                        <li>Jenis Kekayaan Alam</li>
+                        <li>Reservasi</li>
+                        <li>Destinasi</li>
+                    </ul>
+                    <ul>
+                        <li>About</li>
+                        <li>Artikel</li>
+                        <li>Detail Artikel</li>
+                        <li>Detail Destinasi</li>
+                        <li>Rempah-rempah</li>
+                    </ul>
+                    <ul>
+                        <li>Contact</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                        <li>@wonderful.ID 🍃</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir komponen footer -->
+
+        <script src="./assets/js/tab.js"></script>
+        <script src="./assets/js/nav.js"></script>
+    </body>
 </html>

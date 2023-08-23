@@ -362,7 +362,11 @@ html {
     justify-content: space-between;
 }
 
-.sectionList-wonderful h4 {
+.left-top-sectionList-wonderful h4 {
+    color: var(--primary-color);
+}
+
+.title-bottom-wonderful h4 {
     font-weight: bold;
     color: black;
 }
