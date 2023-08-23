@@ -20,7 +20,7 @@
 - [Sulawesi](#sulawesi) (4 wisata)
 - [Papua](#papua) (4 wisata)
 
-## Section 3 (Artikel)
+## Section 3 (Artikel Wisata Nusantara)
 - [Kawah Bromo](https://khoirulhudaa.github.io/articleBromo.html)
 - [Lombok](https://khoirulhudaa.github.io/articleLombok.html)
 - [Hutan Pinus](https://khoirulhudaa.github.io/articleHutanPinus.html)
